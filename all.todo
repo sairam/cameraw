@@ -1,0 +1,52 @@
+Basic tasks to get into v1:
+  Categories to consider:
+    - Cameras, Lenses, Camera Gear, Camera Bag and anything related to Cameras, no phones
+  Sites to Scrape:
+    Product Makers (Indian Sites):
+    - http://nikon.co.in/ - http://www.nikon.com/news/index.htm
+    - http://www.canon.co.in/home
+    - http://www.sony.co.in/productcategory/di-digital-camera
+    - http://www.fujifilm.in/products/consumer-products/digital_cameras/
+    - http://www.olympus-imaging.co.in/products/
+    - Lowerpro #bags #tripods
+    - Slik #tripods
+    - http://sigma-phot.co.jp/lens #lens
+    - http://www.tamron.com/en/photolens/ #lens
+    - http://shop.kodak.in/store/ekconsap/en_IN/list/Digital_Cameras/categoryID.35008200
+    - http://www.samsung.com/in/consumer/camera-camcorder/compact-cameras/index.idx?pagetype=type_p2
+    - http://www.panasonic.co.in/wps/portal/home/products/digitalav/digitalstillcamera
+    Product Makers (US Sites):
+    - http://www.leica.com/
+
+    Indian Sellers:
+    ✓ http://www.flipkart.com/
+    - http://www.zoomin.com/CamerasListing
+    - http://www.infibeam.com/
+    - http://www.jjmehta.com/
+    - http://www.gkvale.com/cameras-india/digital-cameras-india.html
+    - http://camera.homeshop18.com/camera-26-camcorders/category:3159/
+    - http://www.letsbuy.com/digital-cameras-c-255
+    - http://www.smartshoppers.in/
+    non Indian Sellers:
+    - http://www.amazon.com/
+    Uncategorised:
+    - http://kata-bags.com
+    - http://www.flickr.com/cameras/leica/#models
+    - http://www.flickr.com/cameras/brands/
+
+  Now parse what data and store according to your schema:
+    - Brand
+    - Model
+    - Dimensions (W x H x D)
+    - Sensor Resolution
+    - Optical zoom
+    - Display size
+    - Type : DSLR/ Compact / Camcoder
+    - Item model number
+    - Description from the manufacturer
+    - Other common data to be added so that it can be categorized from
+    - For inspiration see http://snapsort.in/
+
+
+
+

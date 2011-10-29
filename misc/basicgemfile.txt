@@ -1,0 +1,36 @@
+source 'http://rubygems.org'
+
+gem 'sqlite3-ruby', :require => 'sqlite3'
+gem 'rails', '3.0.7'
+
+gem 'rake' , '0.8.7'
+gem 'omniauth'
+gem 'nifty-generators'
+
+
+gem 'gravatar_image_tag' # https://github.com/mdeering/gravatar_image_tag
+gem 'mongrel', '1.2.0.pre2'
+gem 'devise'
+gem 'simple_form'
+gem 'metrical'
+gem 'typus'
+gem 'jquery-rails'
+gem 'rails3-jquery-autocomplete', :git => 'git://github.com/sairam/rails3-jquery-autocomplete'
+
+gem 'rake', '0.8.7'
+
+gem 'acts_as_deleted' # https://github.com/kivanio/acts_as_deleted
+# gem 'acts_as_taggable' # http://agilewebdevelopment.com/plugins/acts_as_taggable_on_steroids
+# gem 'acts_as_archival' # https://github.com/expectedbehavior/acts_as_archival
+gem "mocha", :group => :test
+
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'capybara', :git => 'git://github.com/jnicklas/capybara.git'
+  gem 'launchy'
+  gem 'database_cleaner'
+  gem 'rb-fsevent', :require => false if RUBY_PLATFORM =~ /darwin/i
+  gem 'guard-rspec'
+  gem 'guard-livereload'
+end
+

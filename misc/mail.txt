@@ -1,0 +1,36 @@
+
+You've got some interesting ideas going for your site.  Here's my
+high-level advice:
+
+- start small
+- release something early and get feedback from users
+- expand based on what your users tell you
+
+In your case I think the most unique feature idea is the one where
+users can show off what gear they have.  That also leads into your
+idea for setting up loans and trades of gear.  So anything required to
+get that feature working would be a priority.  i.e.
+
+- users (login/password management, etc.  Perhaps integrate with
+Facebook or Twitter or whatever is popular in India)
+- product list: I'd keep it really simple; product name, type (camera,
+lens, flash, etc.) and a picture maybe, add deeper specs later
+- a way for users to select what gear they have
+- a page for each user that displays their gear
+- a way for users to comment on gear or ask questions about it (maybe
+use a 3rd party commenting system like disqus.com)
+- a way for users to find other users that are close to them so they
+can look at their gear, request loans etc.          (pending)
+
+You want the minimum thing you can build that provides some value to
+users.  The first bit of value would be they are able to show off
+their gear.  If you start to get users, the next thing might be a
+system to track gear loans between users.  That will start to give you
+some data that could be used to to determine what users are
+trustworthy.
+
+There's not much opportunity for revenue at this point, but if you
+start to build a user base you'll know you're on to something and can
+start to work on revenue generating ideas.
+
+Hope these ideas help.

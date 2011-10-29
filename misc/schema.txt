@@ -1,0 +1,24 @@
+Database Schema :
+
+Users:
+Id, Username, EmailId, PublicProfile
+
+UserSettings:?
+
+
+Authentications:
+
+Gear:
+Id, Company, Type, Model, Name , Wiki Page, UserContributedBy (tags?)
+
+Voting:
+GearId, ReportId, UserId
+
+Prices:
+ItemId, Site, Price, Currency, Permalink
+
+Virtual Table:
+ItemId, VItemId
+
+UserGear:
+UserId, GearId, Public, Bought Date,  PresentState (have/had)
