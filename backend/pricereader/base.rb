@@ -15,6 +15,10 @@ class PriceReader
     end
   end
 
+  def to_s
+    self.class.name.gsub("Links","")
+  end
+
   def brands
     (@products.map{|p| p.brand_name}).uniq
   end

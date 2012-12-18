@@ -1,0 +1,36 @@
+- $LOAD_PATH << "."
+- require 'pricereader'
+- data = [BuyThePriceLinks, ZoominLinks, InfibeamLinks, FlipkartLinks, DPReviewLinks].map do |klass|
+  - t = klass.new
+  - t.load
+  - t
+
+html
+  head
+    css:
+      .product_categories {
+        position: fixed;
+        left: 40%;
+        top: 1px;
+      }
+  body
+    h2 Products from Flipkart
+    div.clear
+    | Search
+    input name='search'
+    br
+    div.clear
+    .product_categories
+      - data.each do |items|
+        a{href="##{items}"} = "#{items} (#{items.products.count}) "
+        br
+      br
+    - data.each do |items|
+      a[name=items]
+      h2 = items
+
+      ul
+      - items.products.each do |product|
+          li
+            a{href=product.url title="#{product.name} from #{items}" target='_blank' alt=product.name}
+              = product.name

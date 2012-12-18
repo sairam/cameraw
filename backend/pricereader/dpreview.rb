@@ -46,11 +46,16 @@ class DPReview < SimpleSource
 
   def get_model
     short_code = case @brand
-    when "olympus" ["oly","olympus"]
-    when "fujifilm" ["fuji","fujifilm"]
-    when "konicaminolta" ["konica","minolta"]
-    when "nikon" ["nikon", "nikkor"]
-    else @brand
+    when "olympus"
+      ["oly","olympus"]
+    when "fujifilm"
+      ["fuji","fujifilm"]
+    when "konicaminolta"
+      ["konica","minolta"]
+    when "nikon"
+      ["nikon", "nikkor"]
+    else
+      @brand
     end
     if short_code.class == Array
       short_code.each do |our_code|
@@ -60,7 +65,7 @@ class DPReview < SimpleSource
     else
       t = @code.match(/#{short_code}_(.+)/i)
       return t[1] unless t.nil?
-      debug
+      # debug
       return @code
       # binding.pry
     end

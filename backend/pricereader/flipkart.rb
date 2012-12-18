@@ -1,20 +1,4 @@
 
-
-=begin
-=end
-
-# class Flipkart
-  # def find_product_key url
-#
-#   product_categories = {}
-#   YAML::load(File.open('flipkart.yaml').read).each do |product|
-#     next if product.nil? || product['url'].nil?
-#     key = find_product_key product['url']
-#     product['url'] = product['url']+
-#     product_categories.key?(key) ? product_categories[key] << product : product_categories[key] = [product]
-#   end
-# end
-
 =begin
 Sample from Flipkart.com
   url: http://www.flipkart.com/canon-powershot-sx240-hs-point-shoot/p/itmd8yvy7xfh4hzq?pid=CAMD8CB3ZZE8ZZ5H&ref=6286dbb8-72cf-42c9-86b8-c1f03ce2d753
