@@ -27,6 +27,7 @@ class BuyThePrice < SimpleSource
     @code = product['url'].split("__")[-1]  # sample is 907
     @url = product['url']   # sample is http://www.buytheprice.com/shop-online-deal/nikon-d7000---with-nikon-af-s-18-105mm-__907
     @image = product['image']
+    @price = product['price']
     @source = self.class.name
     @category = product['category']
     @brand = @name.split(" ")[0]

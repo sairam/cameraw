@@ -27,6 +27,7 @@ class Zoomin < SimpleSource
     @code = product['url'].split("/")[-1].split(".")[0]  # sample is eos-60d-kit-iii-ef-s18-201
     @url = product['url']   # sample is http://camera.zoomin.com/digital-slr/eos-60d-kit-iii-ef-s18-201.html
     @image = product['image']
+    @price = product['price']
     @source = self.class.name
     @category = product['category']
     @brand, @model = @name.split(" ",2)

@@ -10,7 +10,7 @@ $LOAD_PATH << "."
 $LOAD_PATH << "pricegrabber"
 require 'config'
 
-Dir.open('pricegrabber').each{|x| require x if x=~ /\.rb/}
+Dir.open('pricegrabber').each{|x| require x if !(x =~ /_/) && (x=~ /\.rb/) }
 
 # s = BuyThePriceHTMLScraper.new
 # s = ZoominHTMLScraper.new

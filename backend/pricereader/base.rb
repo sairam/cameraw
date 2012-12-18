@@ -56,7 +56,7 @@ class SimpleSource
 
 private
   def debug
-    puts @name, @code, @url, @category, @brand, @model
+    puts @name, @code, @url, @category, @brand, @model, @price
   end
 
 end

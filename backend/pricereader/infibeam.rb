@@ -26,6 +26,7 @@ class Infibeam < SimpleSource
     @code = product['url'].split("/")[-1].split(".")[0]  # sample is P-E-C-Nikon-D3100
     @url = product['url']   # sample is http://www.infibeam.com//Cameras/i-Nikon-D3100-SLR-Digital-Camera/P-E-C-Nikon-D3100.html?id=Black
     @image = product['image']
+    @price = product['price']
     @source = self.class.name
     @brand, @model = @name.split(" ",2)
     @brand_name = @brand

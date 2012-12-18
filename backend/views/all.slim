@@ -34,3 +34,5 @@ html
           li
             a{href=product.url title="#{product.name} from #{items}" target='_blank' alt=product.name}
               = product.name
+              - unless product.respond_to? :price
+                = "for only Rs. #{produce.price}"

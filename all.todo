@@ -1,52 +1,74 @@
-Basic tasks to get into v1:
+Tasks to get into v1:
   Categories to consider:
-    - Cameras, Lenses, Camera Gear, Camera Bag and anything related to Cameras, no phones
+    - Cameras, Lenses
   Sites to Scrape:
+    Major Players:
+    ✓ http://www.dpreview.com
+    - http://www.flickr.com/cameras/ - 41 brands currently with cameraphones
+    Indian Sellers:
+    ✓ http://www.flipkart.com/
+    ✓ http://www.zoomin.com/CamerasListing
+    ✓ http://www.infibeam.com/
+    ✓ http://www.buytheprice.com/
+    - http://www.smartshoppers.in/ (single page)
+    - http://camera.homeshop18.com/camera-26-camcorders/category:3159/
+    - http://www.jjmehta.com/
+    - http://www.snapdeal.com/
+    - http://www.landmarkonthenet.com
+    - http://www.gkvale.com/
+    - http://www.indiaplaza.com/
     Product Makers (Indian Sites):
     - http://nikon.co.in/ - http://www.nikon.com/news/index.htm
     - http://www.canon.co.in/home
     - http://www.sony.co.in/productcategory/di-digital-camera
     - http://www.fujifilm.in/products/consumer-products/digital_cameras/
     - http://www.olympus-imaging.co.in/products/
-    - Lowerpro #bags #tripods
-    - Slik #tripods
-    - http://sigma-phot.co.jp/lens #lens
-    - http://www.tamron.com/en/photolens/ #lens
     - http://shop.kodak.in/store/ekconsap/en_IN/list/Digital_Cameras/categoryID.35008200
     - http://www.samsung.com/in/consumer/camera-camcorder/compact-cameras/index.idx?pagetype=type_p2
     - http://www.panasonic.co.in/wps/portal/home/products/digitalav/digitalstillcamera
-    Product Makers (US Sites):
-    - http://www.leica.com/
-
-    Indian Sellers:
-    ✓ http://www.flipkart.com/
-    - http://www.zoomin.com/CamerasListing
-    - http://www.infibeam.com/
-    - http://www.jjmehta.com/
-    - http://www.gkvale.com/cameras-india/digital-cameras-india.html
-    - http://camera.homeshop18.com/camera-26-camcorders/category:3159/
-    - http://www.letsbuy.com/digital-cameras-c-255
-    - http://www.smartshoppers.in/
-    non Indian Sellers:
-    - http://www.amazon.com/
-    Uncategorised:
-    - http://kata-bags.com
-    - http://www.flickr.com/cameras/leica/#models
-    - http://www.flickr.com/cameras/brands/
 
   Now parse what data and store according to your schema:
-    - Brand
-    - Model
+    ✓ Brand
+    ✓ Category
+      ✓ slrs
+      ✓ compacts
+      ✓ camcorders
+      ✓ lenses
+      - cameraphones
+    ✓ Model Name / Number
+    ✓ Image
+    - Price
+  Website:
+    - Search on interface
+    - Faceted interface
+    - Links to major websites
+    - Price comparision
+    - Link to Flickr
+    - Link to manufacturers website
+  Affiliates:
+    - http://www.zoomin.com/affiliates
+    - http://www.infibeam.com/affiliate
+    - Setup affiliates on others - See how mysmartprice.com is doing it
+Tasks to get into v2:
+  Categories to consider:
+    - Camera Gear, Camera Bag and anything related to Cameras, no phones
+  Product Makers (Indian Sites):
+    - Lowerpro #bags #tripods
+    - Slik #tripods
+  Now parse what data and store according to your schema:
     - Dimensions (W x H x D)
     - Sensor Resolution
     - Optical zoom
     - Display size
-    - Type : DSLR/ Compact / Camcoder
-    - Item model number
     - Description from the manufacturer
-    - Other common data to be added so that it can be categorized from
-    - For inspiration see http://snapsort.in/
-
-
-
-
+    - Other common data to be added so that it can be categorised from
+    - For inspiration see http://snapsort.com/
+  Product Makers (Non Indian Sites):
+  - http://www.leica.com/
+  - http://sigma-phot.co.jp/lens #lens
+  - http://www.tamron.com/en/photolens/ #lens
+  Non Indian Sellers:
+  - http://www.amazon.com/
+  Uncategorised:
+  - http://www.cromaretail.com # ajax post
+  - http://kata-bags.com
