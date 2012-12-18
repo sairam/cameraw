@@ -14,6 +14,7 @@ class BasicPriceGrabber
       old_data = YAML::load file.read
       file.close
       puts "There are #{(@complete_data - old_data).size} new products"
+    rescue
     end
 
     file = open(@filename,'w+')
@@ -33,9 +34,16 @@ class HTMLScraper < BasicPriceGrabber
       end.flatten
     elsif @urls.class == Hash
       @urls.each do |category, url|
-        data = scrape_from(url).flatten.map do |x|
-          x['category'] = category
-          x
+        if url.class == Array
+          data = url.map{|aurl| scrape_from(aurl)}.flatten.map do |x|
+            x['category'] = category
+            x
+          end
+        else
+          data = scrape_from(url).flatten.map do |x|
+            x['category'] = category
+            x
+          end
         end
         @complete_data << data
       end
@@ -50,11 +58,14 @@ private
   end
 
   def scrape_from(url)
-    start = 1
+    start = 0
+    start_offset = 0
     no_of_times = 1
     complete_data = []
 
-    page = Nokogiri::HTML(open(url.gsub('PAGE',no_of_times.to_s).gsub('START',start.to_s)).read)
+    myurl = url.gsub('PAGE',no_of_times.to_s).gsub('START_OFFSET',start_offset.to_s).gsub('START',start.to_s)
+    # puts myurl
+    page = Nokogiri::HTML(open(myurl).read)
     no_of_pages = (get_page_count(page).to_f / per_page).ceil
 
     # Get first page data
@@ -63,9 +74,13 @@ private
     end
 
     while no_of_times < no_of_pages
+      start_offset = no_of_times * @per_page
+      # puts start_offset
       start = no_of_times * @per_page + 1
       no_of_times += 1
-      page = Nokogiri::HTML(open(url.gsub('PAGE',no_of_times.to_s).gsub('START',start.to_s)).read)
+      myurl = url.gsub('PAGE',no_of_times.to_s).gsub('START_OFFSET',start_offset.to_s).gsub('START',start.to_s)
+      # puts myurl
+      page = Nokogiri::HTML(open(myurl).read)
       sleep 1
       complete_data << page.css(@product_details).map do |product_section|
         parse_data product_section
@@ -76,3 +91,35 @@ private
 
 end
 
+=begin
+class MyHTMLScraper < HTMLScraper
+  @@compacts = ""
+  @@camcoders = ""
+  @@slrs = ""
+
+  def initialize
+    @urls = {"slrs" => @@slrs, "camcoders" => @@camcoders, "compacts" => @@compacts}
+    @complete_data = []
+    @filename = MyConfig::Filename
+    @per_page = 30
+
+    @total_count = "span.blue"
+    @product_details = "div#results .product-block1"
+  end
+
+private
+  def get_page_count(page)
+    page.css(@total_count).text().match(/^(.+) products/)[1]
+  end
+  def parse_data product_section
+    print "."
+    {
+    'url' => product_section.css(' > a').attr('href').value,
+    'image' => product_section.css('div.pro-block a img').attr('src').value,
+    'name' => product_section.css('div.pro-block a img').attr('alt').value,
+    'price' => product_section.css(' > a').text().strip.gsub(/Rs\.?/,'').gsub(',','').strip, # price section
+    }
+  end
+
+end
+=end

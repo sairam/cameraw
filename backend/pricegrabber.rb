@@ -17,7 +17,12 @@ Dir.open('pricegrabber').each{|x| require x if !(x =~ /_/) && (x=~ /\.rb/) }
 # s = InfibeamHTMLScraper.new
 # s = FlipkartHTMLScraper.new
 # s = DPReviewInfoGrabber.new
-# s.perform
+# s = HomeShop18HTMLScraper.new
+# s = SmartShopperHTMLScraper.new
+# s = LandMarkHTMLScraper.new
+# s = IndiaPlazaHTMLScraper.new
+s = JJMehtaHTMLScraper.new
+s.perform
 
 # [BuyThePriceHTMLScraper, ZoomInHTMLScraper, InfibeamHTMLScraper, FlipkartHTMLScraper, DPReviewInfoGrabber].each do |klass|
 #   klass.new.perform

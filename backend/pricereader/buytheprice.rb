@@ -11,7 +11,7 @@ class BuyThePriceLinks < PriceReader
   attr_accessor :filename, :product_categories
 
   def initialize
-    @filename = BuythePriceConfig::Filename
+    @filename = BuyThePriceConfig::Filename
     @products = []
   end
 

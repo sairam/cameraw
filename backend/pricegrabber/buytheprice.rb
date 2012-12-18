@@ -7,7 +7,7 @@ class BuyThePriceHTMLScraper < HTMLScraper
   def initialize
     @urls = {"slrs" => @@slrs, "camcoders" => @@camcoders, "compacts" => @@compacts}
     @complete_data = []
-    @filename = BuythePriceConfig::Filename
+    @filename = BuyThePriceConfig::Filename
     @per_page = 30
 
     @total_count = "span.blue"
