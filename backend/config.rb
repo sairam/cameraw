@@ -31,3 +31,6 @@ end
 module JJMehtaConfig
   Filename = "yaml/jjmehta.yaml"
 end
+module SnapDealConfig
+  Filename = "yaml/snapdeal.yaml"
+end

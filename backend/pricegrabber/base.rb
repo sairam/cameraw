@@ -21,6 +21,27 @@ class BasicPriceGrabber
     file.write @complete_data.to_yaml
     file.close
   end
+
+  def compute_url(url, no_of_times)
+    no_of_times -= 1
+    start_offset = no_of_times * @per_page
+    start = no_of_times * @per_page + 1
+    no_of_times += 1
+
+    url.gsub('PAGE',no_of_times.to_s).gsub('START_OFFSET',start_offset.to_s).gsub('START',start.to_s)
+  end
+
+  def scrape_from_page(page)
+    fail "Override this method"
+  end
+  def get_page_data(url)
+    fail "Override this method"
+  end
+
+private
+  def wait
+    sleep 1
+  end
 end
 
 
@@ -28,23 +49,22 @@ class HTMLScraper < BasicPriceGrabber
   attr_accessor :complete_data, :per_page, :total_count, :product_details
 
   def perform
-    if @urls.class == Array
-      @complete_data = @urls.map do |url|
-        scrape_from(url)
-      end.flatten
-    elsif @urls.class == Hash
+    @urls = {"none" => @urls} if @urls.class == Array || @urls.class == String
+
+    if @urls.class == Hash
       @urls.each do |category, url|
-        if url.class == Array
-          data = url.map{|aurl| scrape_from(aurl)}.flatten.map do |x|
-            x['category'] = category
-            x
-          end
-        else
-          data = scrape_from(url).flatten.map do |x|
+
+        url = [url] unless url.class == Array
+
+        data = url.map{|aurl| scrape_from(aurl)}.flatten
+
+        unless category == "none"
+          data.map! do |x|
             x['category'] = category
             x
           end
         end
+
         @complete_data << data
       end
       @complete_data.flatten!
@@ -58,35 +78,29 @@ private
   end
 
   def scrape_from(url)
-    start = 0
-    start_offset = 0
-    no_of_times = 1
     complete_data = []
+    no_of_times = 0
+    begin
+      no_of_times += 1
+      page = get_page_data( compute_url(url,no_of_times) )
+      no_of_pages = (get_page_count(page).to_f / per_page).ceil if no_of_times == 1
+      wait
+      complete_data << scrape_from_page(page)
+    end while no_of_times < no_of_pages
 
-    myurl = url.gsub('PAGE',no_of_times.to_s).gsub('START_OFFSET',start_offset.to_s).gsub('START',start.to_s)
-    # puts myurl
-    page = Nokogiri::HTML(open(myurl).read)
-    no_of_pages = (get_page_count(page).to_f / per_page).ceil
+    complete_data
+  end
 
-    # Get first page data
-    complete_data << page.css(@product_details).map do |product_section|
+  # Can be overriden
+  def scrape_from_page(page)
+     page.css(@product_details).map do |product_section|
       parse_data(product_section)
     end
+  end
 
-    while no_of_times < no_of_pages
-      start_offset = no_of_times * @per_page
-      # puts start_offset
-      start = no_of_times * @per_page + 1
-      no_of_times += 1
-      myurl = url.gsub('PAGE',no_of_times.to_s).gsub('START_OFFSET',start_offset.to_s).gsub('START',start.to_s)
-      # puts myurl
-      page = Nokogiri::HTML(open(myurl).read)
-      sleep 1
-      complete_data << page.css(@product_details).map do |product_section|
-        parse_data product_section
-      end
-    end
-    complete_data
+  # Can be overriden
+  def get_page_data(url)
+    Nokogiri::HTML(open(url).read)
   end
 
 end

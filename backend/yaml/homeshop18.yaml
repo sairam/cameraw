@@ -276,16 +276,16 @@
   price: '164852'
   category: slrs
 - url: |
-    http://www.homeshop18.com/nikon-d800e-dslr-camera-body-only/camera-camcorders/digital-slrs/product:30424042/cid:3188/?pos=47
-  image: http://stat.homeshop18.com/homeshop18/images/productImages/415/300x300_ea05e9e156a48e3f492eb7b1d9ff9dcf.jpg
-  name: Nikon D800E DSLR Camera (Body Only)
-  price: '179402'
-  category: slrs
-- url: |
-    http://www.homeshop18.com/canon-eos-5d-mark-ii-dslr-camera-24-105mm-lens/camera-camcorders/digital-slrs/product:30424038/cid:3188/?pos=48
+    http://www.homeshop18.com/canon-eos-5d-mark-ii-dslr-camera-24-105mm-lens/camera-camcorders/digital-slrs/product:30424038/cid:3188/?pos=47
   image: http://stat.homeshop18.com/homeshop18/images/productImages/116/300x300_2f42293ece047dd7d2dd79b4671fb508.jpg
   name: Canon EOS 5D Mark II DSLR Camera with 24-105mm Lens
   price: '179450'
+  category: slrs
+- url: |
+    http://www.homeshop18.com/nikon-d800e-dslr-camera-body-only/camera-camcorders/digital-slrs/product:30424042/cid:3188/?pos=48
+  image: http://stat.homeshop18.com/homeshop18/images/productImages/415/300x300_ea05e9e156a48e3f492eb7b1d9ff9dcf.jpg
+  name: Nikon D800E DSLR Camera (Body Only)
+  price: '179402'
   category: slrs
 - url: |
     http://www.homeshop18.com/canon-eos-5d-mark-iii-body-only/camera-camcorders/digital-slrs/product:28768917/cid:3188/?pos=49
@@ -298,152 +298,152 @@
   image: http://stat.homeshop18.com/homeshop18/images/productImages/418/300x300_cb157c871a997b5ff2ad7429060946e7.jpg
   name: Sony HDR-PJ200E Camcorder
   price: '29500'
-  category: camcoders
+  category: camcorders
 - url: |
     http://www.homeshop18.com/wespro-5mp-digital-camcorder-dv538-leather-pouch/camera-camcorders/camcorders/product:16575123/cid:3164/?pos=2
   image: http://stat.homeshop18.com/homeshop18/images/productImages/852/300x300_0e50bc33dba0a4445ac4ef2110f9379d.jpg
   name: ! 'Wespro 5MP Digital Camcorder DV538 with  Leather Pouch '
   price: '2999'
-  category: camcoders
+  category: camcorders
 - url: |
     http://www.homeshop18.com/sony-hdr-cx190e-camcorder/camera-camcorders/camcorders/product:28597721/cid:3164/?pos=3
   image: http://stat.homeshop18.com/homeshop18/images/productImages/16/300x300_2bdedcd3d600b9973db526916357c272.jpg
   name: Sony HDR-CX190E Camcorder
   price: '19700'
-  category: camcoders
+  category: camcorders
 - url: |
     http://www.homeshop18.com/sony-dcr-sx22e-camcorder/camera-camcorders/camcorders/product:30409308/cid:3164/?pos=4
   image: http://stat.homeshop18.com/homeshop18/images/productImages/151/300x300_894ed124d3ed854b8079f4146f4d6174.jpg
   name: Sony DCR-SX22E Camcorder
   price: '12990'
-  category: camcoders
+  category: camcorders
 - url: |
     http://www.homeshop18.com/sony-dcr-sx45e-camcorder/camera-camcorders/camcorders/product:28577639/cid:3164/?pos=5
   image: http://stat.homeshop18.com/homeshop18/images/productImages/46/300x300_d1461d944d353e0475f884dfaf34281c.jpg
   name: Sony DCR-SX45E Camcorder
   price: '15400'
-  category: camcoders
+  category: camcorders
 - url: |
     http://www.homeshop18.com/samsung-hmx-f80bp-xtl-camcorder/camera-camcorders/camcorders/product:30409922/cid:3164/?pos=6
   image: http://stat.homeshop18.com/homeshop18/images/productImages/32/300x300_bb03b981065dfbfe222fdab6e57f955a.jpg
   name: Samsung HMX-F80BP/XTL Camcorder
   price: '12321'
-  category: camcoders
+  category: camcorders
 - url: |
     http://www.homeshop18.com/sony-hdr-cx200e-camcorder/camera-camcorders/camcorders/product:28597723/cid:3164/?pos=7
   image: http://stat.homeshop18.com/homeshop18/images/productImages/725/300x300_c98ae0f9e82d88cdc02b98d3b4af8a11.jpg
   name: Sony HDR-CX200E Camcorder
   price: '24600'
-  category: camcoders
+  category: camcorders
 - url: |
     http://www.homeshop18.com/panasonic-lumix-dmc-hx-dc2-dual-camera-gray/camera-camcorders/camcorders/product:29921529/cid:3164/?pos=8
   image: http://stat.homeshop18.com/homeshop18/images/productImages/591/300x300_da74049a96819f14d01fa122bc0e3d3a.jpg
   name: Panasonic Lumix DMC - HX-DC2 Dual Camera (Gray)
   price: '13570'
-  category: camcoders
+  category: camcorders
 - url: |
     http://www.homeshop18.com/panasonic-hc-v10-camcorder/camera-camcorders/camcorders/product:30119940/cid:3164/?pos=9
   image: http://stat.homeshop18.com/homeshop18/images/productImages/134/300x300_b14472283b533de6fa0484fd8995107c.jpg
   name: Panasonic HC-V10 Camcorder
   price: '15499'
-  category: camcoders
+  category: camcorders
 - url: |
     http://www.homeshop18.com/sony-hdr-pj260ve-camcorder/camera-camcorders/camcorders/product:28597729/cid:3164/?pos=10
   image: http://stat.homeshop18.com/homeshop18/images/productImages/640/300x300_de35eeba5d95beb338b052b7979510e5.jpg
   name: Sony HDR-PJ260VE Camcorder
   price: '39500'
-  category: camcoders
+  category: camcorders
 - url: |
     http://www.homeshop18.com/panasonic-hx-wa10-camcorder/camera-camcorders/camcorders/product:30119944/cid:3164/?pos=11
   image: http://stat.homeshop18.com/homeshop18/images/productImages/505/300x300_119c76757101a04faa5876687c48d759.jpg
   name: Panasonic HX-WA10 Camcorder
   price: '16999'
-  category: camcoders
+  category: camcorders
 - url: |
     http://www.homeshop18.com/sony-dcr-pj5-camcorder/camera-camcorders/camcorders/product:30119946/cid:3164/?pos=12
   image: http://stat.homeshop18.com/homeshop18/images/productImages/487/300x300_5d260be3efc1aea6ac860ec6952c61dd.jpg
   name: Sony DCR-PJ5 Camcorder
   price: '19390'
-  category: camcoders
+  category: camcorders
 - url: |
     http://www.homeshop18.com/canon-legria-hf-r205-camcorder/camera-camcorders/camcorders/product:16601903/cid:3164/?pos=13
   image: http://stat.homeshop18.com/homeshop18/images/productImages/640/300x300_500d83106ab3735caf9e00ac53aa7065.jpg
   name: Canon Legria HF R205 Camcorder
   price: '19395'
-  category: camcoders
+  category: camcorders
 - url: |
     http://www.homeshop18.com/panasonic-hc-v100-camcorder/camera-camcorders/camcorders/product:30119942/cid:3164/?pos=14
   image: http://stat.homeshop18.com/homeshop18/images/productImages/812/300x300_4a11a8d1b4dc1de3baa6cd0e73581aec.jpg
   name: Panasonic HC-V100 Camcorder
   price: '19999'
-  category: camcoders
+  category: camcorders
 - url: |
     http://www.homeshop18.com/sony-hdr-cx260e-camcorder/camera-camcorders/camcorders/product:28597725/cid:3164/?pos=15
   image: http://stat.homeshop18.com/homeshop18/images/productImages/541/300x300_cc0d24c27b82f1ce86d04dd9a48f717b.jpg
   name: Sony HDR-CX260E Camcorder
   price: '34500'
-  category: camcoders
+  category: camcorders
 - url: |
     http://www.homeshop18.com/sony-hdr-xr260-camcorder/camera-camcorders/camcorders/product:29922093/cid:3164/?pos=16
   image: http://stat.homeshop18.com/homeshop18/images/productImages/518/300x300_e25d6f0cd3b900cc14887f1290b3ea86.jpg
   name: Sony HDR-XR260 Camcorder
   price: '44525'
-  category: camcoders
+  category: camcorders
 - url: |
     http://www.homeshop18.com/sony-xr260e-camcorder-black/camera-camcorders/camcorders/product:30325444/cid:3164/?pos=17
   image: http://stat.homeshop18.com/homeshop18/images/productImages/875/300x300_62cd46534d650a5158816f8960a17387.jpg
   name: Sony XR260E Camcorder (Black)
   price: '44500'
-  category: camcoders
+  category: camcorders
 - url: |
     http://www.homeshop18.com/sony-hdr-pj600-camcorder/camera-camcorders/camcorders/product:29922095/cid:3164/?pos=18
   image: http://stat.homeshop18.com/homeshop18/images/productImages/479/300x300_fdd91cb08af8d67b258d4456832ac37d.jpg
   name: Sony HDR-PJ600 Camcorder
   price: '64525'
-  category: camcoders
+  category: camcorders
 - url: |
     http://www.homeshop18.com/sony-dcr-sd1000e-proffesional-video-camera/camera-camcorders/camcorders/product:30369000/cid:3164/?pos=19
   image: http://stat.homeshop18.com/homeshop18/images/productImages/209/300x300_74eef46cd5b9cac455ca6a6fdf078497.jpg
   name: ! 'Sony DCR - SD1000E Proffesional Video Camera '
   price: '65800'
-  category: camcoders
+  category: camcorders
 - url: |
     http://www.homeshop18.com/sony-hxr-mc1500p-professional-video-camera/camera-camcorders/camcorders/product:30122318/cid:3164/?pos=20
   image: http://stat.homeshop18.com/homeshop18/images/productImages/687/300x300_79673d03dc87108fd8432f72ecc1b36b.jpg
   name: Sony HXR MC1500P Professional Video Camera
   price: '82990'
-  category: camcoders
+  category: camcorders
 - url: |
     http://www.homeshop18.com/sony-hvr-hd1000e-professional-video-camera/camera-camcorders/camcorders/product:30122320/cid:3164/?pos=21
   image: http://stat.homeshop18.com/homeshop18/images/productImages/86/300x300_793d09c62ee5f8d4e7e1147117c407e4.jpg
   name: Sony HVR HD1000E Professional Video Camera
   price: '92990'
-  category: camcoders
+  category: camcorders
 - url: |
     http://www.homeshop18.com/wespro-1-3mp-digital-camcorder-dv138-camera-pouch/camera-camcorders/camcorders/product:48609/cid:3166/?pos=22
   image: http://stat.homeshop18.com/homeshop18/images/productImages/567/300x300_44ba55cb62fe75723b90be080d498516.jpg
   name: Wespro 1.3MP Digital Camcorder DV138 with Camera Pouch
   price: '2290'
-  category: camcoders
+  category: camcorders
 - url: |
     http://www.homeshop18.com/akai-digital-camcorder-5-mp-still-images/camera-camcorders/camcorders/product:27741461/cid:3166/?pos=23
   image: http://stat.homeshop18.com/homeshop18/images/productImages/543/300x300_4a48675e1fea715245ad27f3d9eba178.jpg
   name: Akai Digital Camcorder with 5 MP Still Images
   price: '4999'
-  category: camcoders
+  category: camcorders
 - url: |
     http://www.homeshop18.com/akai-digital-camcorder-5mp-still-images-dual-battery-option/camera-camcorders/camcorders/product:16430267/cid:3166/?pos=24
   image: http://stat.homeshop18.com/homeshop18/images/product/nitc/8Jl11-AkaiDcmcdr-NITC_30-08-11.jpg
   name: Akai Digital Camcorder with 5MP Still Images & Dual Battery Option
   price: '4999'
-  category: camcoders
+  category: camcorders
 - url: |
     http://www.homeshop18.com/canon-digital-video-camcorder-legria-fs305-37x-optical-zoom-8-gb-sd-card/camera-camcorders/camcorders/product:217553/cid:3168/?pos=25
   image: http://stat.homeshop18.com/homeshop18/images/productImages/31/300x300_5a50e7a6386e908a94b368414fc488c2.jpg
   name: Canon Digital Video Camcorder Legria FS305 with 37X Optical Zoom & 8 Gb SD
     Card
   price: '11250'
-  category: camcoders
+  category: camcorders
 - url: |
     http://www.homeshop18.com/nikon-coolpix-l26-16-1-mp-digital-camera/camera-camcorders/digital-cameras/product:29554791/cid:3183/?pos=1
   image: http://stat.homeshop18.com/homeshop18/images/productImages/749/300x300_9adcafdec43164a63c5b1821fbfd9aaf.jpg
@@ -709,346 +709,346 @@
   price: '4840'
   category: compacts
 - url: |
-    http://www.homeshop18.com/canon-power-shot-camera-12-1-mega-pixel-4-x-zoom-a1200/camera-camcorders/digital-cameras/product:28105123/cid:3182/?pos=45
-  image: http://stat.homeshop18.com/homeshop18/images/productImages/633/300x300_9c349279776852ed7acdf5b930fab3d1.jpg
-  name: Canon Power Shot Camera - 12.1 Mega Pixel & 4 X Zoom - A1200
-  price: '4360'
-  category: compacts
-- url: |
-    http://www.homeshop18.com/fujifilm-finepix-jx420-16mp-digital-camera/camera-camcorders/digital-cameras/product:30361924/cid:3183/?pos=46
+    http://www.homeshop18.com/fujifilm-finepix-jx420-16mp-digital-camera/camera-camcorders/digital-cameras/product:30361924/cid:3183/?pos=45
   image: http://stat.homeshop18.com/homeshop18/images/productImages/586/300x300_e67340910c20dc705a23f76d24d9d25c.jpg
   name: Fujifilm Finepix JX420 16MP Digital Camera
   price: '5999'
   category: compacts
 - url: |
-    http://www.homeshop18.com/panasonic-ls6-14-1-mp-digital-camera/camera-camcorders/digital-cameras/product:30325452/cid:3183/?pos=47
+    http://www.homeshop18.com/panasonic-ls6-14-1-mp-digital-camera/camera-camcorders/digital-cameras/product:30325452/cid:3183/?pos=46
   image: http://stat.homeshop18.com/homeshop18/images/productImages/323/300x300_4213a9c6b5bf0efa9fd6364d50997f68.jpg
   name: ! 'Panasonic LS6 14.1 MP Digital Camera '
   price: '4800'
   category: compacts
 - url: |
-    http://www.homeshop18.com/fujifilm-jx-500-14-mp-digital-camera/camera-camcorders/digital-cameras/product:29368483/cid:3183/?pos=48
+    http://www.homeshop18.com/fujifilm-jx-500-14-mp-digital-camera/camera-camcorders/digital-cameras/product:29368483/cid:3183/?pos=47
   image: http://stat.homeshop18.com/homeshop18/images/productImages/663/300x300_d10848d6835225ed851532967e4aa2f2.jpg
   name: Fujifilm JX-500 14 MP Digital Camera
   price: '5499'
   category: compacts
 - url: |
-    http://www.homeshop18.com/olympus-110-12-mp-digital-camera/camera-camcorders/digital-cameras/product:30410362/cid:3182/?pos=49
+    http://www.homeshop18.com/olympus-110-12-mp-digital-camera/camera-camcorders/digital-cameras/product:30410362/cid:3182/?pos=48
   image: http://stat.homeshop18.com/homeshop18/images/productImages/894/300x300_f689628bda08812274f2fbbe7ef811b0.jpg
   name: Olympus T-110 12 MP Digital Camera
   price: '3699'
   category: compacts
 - url: |
-    http://www.homeshop18.com/panasonic-lumix-dmc-fh2-14-1mp-digital-camera/camera-camcorders/digital-cameras/product:30119936/cid:3183/?pos=50
+    http://www.homeshop18.com/panasonic-lumix-dmc-fh2-14-1mp-digital-camera/camera-camcorders/digital-cameras/product:30119936/cid:3183/?pos=49
   image: http://stat.homeshop18.com/homeshop18/images/productImages/482/300x300_bd48e8eff41a7c7c6b1b102fc8e0d4d2.jpg
   name: Panasonic Lumix DMC-FH2 14.1MP Digital Camera
   price: '7069'
   category: compacts
 - url: |
-    http://www.homeshop18.com/fuji-finepix-14-mega-pixel-10-x-zoom-camera-li-ion-battery/camera-camcorders/digital-cameras/product:16590405/cid:3183/?pos=51
+    http://www.homeshop18.com/fuji-finepix-14-mega-pixel-10-x-zoom-camera-li-ion-battery/camera-camcorders/digital-cameras/product:16590405/cid:3183/?pos=50
   image: http://stat.homeshop18.com/homeshop18/images/productImages/629/300x300_f193231472480e2a39b7ee5a3a17b11d.jpg
   name: Fuji Finepix 14 Mega Pixel with 10 X Zoom Camera with Li-ion Battery
   price: '8999'
   category: compacts
 - url: |
-    http://www.homeshop18.com/olympus-sp-610-uz-14-mp-digital-camera/camera-camcorders/digital-cameras/product:30122356/cid:3183/?pos=52
+    http://www.homeshop18.com/olympus-sp-610-uz-14-mp-digital-camera/camera-camcorders/digital-cameras/product:30122356/cid:3183/?pos=51
   image: http://stat.homeshop18.com/homeshop18/images/productImages/55/300x300_a9c902c9ac4068c7142b82c899941cab.jpg
   name: OLYMPUS-SP-610-UZ 14 MP Digital Camera
   price: '9990'
   category: compacts
 - url: |
-    http://www.homeshop18.com/canon-power-shot-a4000-digital-camera/camera-camcorders/digital-cameras/product:28563027/cid:3183/?pos=53
+    http://www.homeshop18.com/canon-power-shot-a4000-digital-camera/camera-camcorders/digital-cameras/product:28563027/cid:3183/?pos=52
   image: http://stat.homeshop18.com/homeshop18/images/productImages/665/300x300_2234c5fe07b44df508a5ed964c4f38ca.jpg
   name: Canon Power Shot A4000 IS Digital Camera
   price: '10665'
   category: compacts
 - url: |
-    http://www.homeshop18.com/nikon-l-610-16-mp-digital-camera/camera-camcorders/digital-cameras/product:30334184/cid:3183/?pos=54
+    http://www.homeshop18.com/nikon-l-610-16-mp-digital-camera/camera-camcorders/digital-cameras/product:30334184/cid:3183/?pos=53
   image: http://stat.homeshop18.com/homeshop18/images/productImages/544/300x300_543935705cd559a53d629c6450b74e3c.jpg
   name: Nikon L 610 16 MP Digital Camera
   price: '13530'
   category: compacts
 - url: |
-    http://www.homeshop18.com/olympus-vg-160-14-mp-digital-camera-red/camera-camcorders/digital-cameras/product:30369532/cid:3183/?pos=55
+    http://www.homeshop18.com/olympus-vg-160-14-mp-digital-camera-red/camera-camcorders/digital-cameras/product:30369532/cid:3183/?pos=54
   image: http://stat.homeshop18.com/homeshop18/images/productImages/697/300x300_68eb75ab2ca2a731665abe7f6dce917d.jpg
   name: Olympus VG 160 14 MP Digital Camera (Red)
   price: '5810'
   category: compacts
 - url: |
-    http://www.homeshop18.com/fujifilm-finepix-ax550-16-mp-digital-camera/camera-camcorders/digital-cameras/product:30168230/cid:3183/?pos=56
+    http://www.homeshop18.com/fujifilm-finepix-ax550-16-mp-digital-camera/camera-camcorders/digital-cameras/product:30168230/cid:3183/?pos=55
   image: http://stat.homeshop18.com/homeshop18/images/productImages/512/300x300_3f3ae9387f87095661d7036ca7772c92.jpg
   name: Fujifilm FInepix AX550 16 MP Digital Camera
   price: '4999'
   category: compacts
 - url: |
-    http://www.homeshop18.com/nikon-coolpix-p510-16-1-mp-digital-camera/camera-camcorders/digital-cameras/product:29554809/cid:3183/?pos=57
+    http://www.homeshop18.com/nikon-coolpix-p510-16-1-mp-digital-camera/camera-camcorders/digital-cameras/product:29554809/cid:3183/?pos=56
   image: http://stat.homeshop18.com/homeshop18/images/productImages/306/300x300_7f60599b0f3aba59af1937afb77d6db7.jpg
   name: ! 'Nikon Coolpix P510 16.1 MP Digital Camera '
   price: '23465'
   category: compacts
 - url: |
-    http://www.homeshop18.com/canon-sx160-16-mp-digital-camera/camera-camcorders/digital-cameras/product:30325422/cid:3183/?pos=58
+    http://www.homeshop18.com/canon-sx160-16-mp-digital-camera/camera-camcorders/digital-cameras/product:30325422/cid:3183/?pos=57
   image: http://stat.homeshop18.com/homeshop18/images/productImages/940/300x300_43081eaf05303cc560c501a177c503d0.jpg
   name: ! 'Canon SX160 IS 16 MP Digital Camera '
   price: '12605'
   category: compacts
 - url: |
-    http://www.homeshop18.com/canon-power-shot-a3400-digital-camera/camera-camcorders/digital-cameras/product:28563025/cid:3183/?pos=59
+    http://www.homeshop18.com/canon-power-shot-a3400-digital-camera/camera-camcorders/digital-cameras/product:28563025/cid:3183/?pos=58
   image: http://stat.homeshop18.com/homeshop18/images/productImages/651/300x300_db2ca726289d44914ea92f2f85813b92.jpg
   name: Canon Power Shot A3400 IS Digital Camera
   price: '8725'
   category: compacts
 - url: |
-    http://www.homeshop18.com/samsung-es90-14-2-mp-digital-camera/camera-camcorders/digital-cameras/product:30409916/cid:3183/?pos=60
+    http://www.homeshop18.com/samsung-es90-14-2-mp-digital-camera/camera-camcorders/digital-cameras/product:30409916/cid:3183/?pos=59
   image: http://stat.homeshop18.com/homeshop18/images/productImages/394/300x300_104968763bb7f8b47f902fca2a8f8f08.jpg
   name: Samsung ES90 14.2 MP Digital Camera
   price: '5590'
   category: compacts
 - url: |
-    http://www.homeshop18.com/fujifilm-finepix-jx300-14mp-digital-camera/camera-camcorders/digital-cameras/product:16579237/cid:3183/?pos=61
+    http://www.homeshop18.com/fujifilm-finepix-jx300-14mp-digital-camera/camera-camcorders/digital-cameras/product:16579237/cid:3183/?pos=60
   image: http://stat.homeshop18.com/homeshop18/images/productImages/937/300x300_3473a91f47c93267ad64c6e51e7c8e93.jpg
   name: Fujifilm Finepix JX300 14MP Digital Camera
   price: '6565'
   category: compacts
 - url: |
-    http://www.homeshop18.com/panasonic-lumix-dmc-fh4-14-1-mp-digital-camera/camera-camcorders/digital-cameras/product:29921511/cid:3183/?pos=62
+    http://www.homeshop18.com/panasonic-lumix-dmc-fh4-14-1-mp-digital-camera/camera-camcorders/digital-cameras/product:29921511/cid:3183/?pos=61
   image: http://stat.homeshop18.com/homeshop18/images/productImages/283/300x300_a5c8b4b32cc5ff4165caedee5d6a80d4.jpg
   name: ! 'Panasonic Lumix DMC - FH4 14.1 MP Digital Camera '
   price: '5800'
   category: compacts
 - url: |
-    http://www.homeshop18.com/fujifilm-finepix-jx420-digital-camera-freebie/camera-camcorders/digital-cameras/product:30408128/cid:3183/?pos=63
+    http://www.homeshop18.com/fujifilm-finepix-jx420-digital-camera-freebie/camera-camcorders/digital-cameras/product:30408128/cid:3183/?pos=62
   image: http://stat.homeshop18.com/homeshop18/images/productImages/579/300x300_9336d0bcbd5674d1b1a9ff1122113c0b.jpg
   name: Fujifilm Finepix JX420 Digital Camera with Freebie
   price: '5799'
   category: compacts
 - url: |
-    http://www.homeshop18.com/fujifilm-jz-100-14-mp-digital-camera/camera-camcorders/digital-cameras/product:29368485/cid:3183/?pos=64
+    http://www.homeshop18.com/fujifilm-jz-100-14-mp-digital-camera/camera-camcorders/digital-cameras/product:29368485/cid:3183/?pos=63
   image: http://stat.homeshop18.com/homeshop18/images/productImages/563/300x300_a52b807a6e1c7b516eba129f6baf366f.jpg
   name: Fujifilm JZ-100 14 MP Digital Camera
   price: '7499'
   category: compacts
 - url: |
-    http://www.homeshop18.com/samsung-st66-16-1-mp-digital-camera/camera-camcorders/digital-cameras/product:30409920/cid:3183/?pos=65
+    http://www.homeshop18.com/samsung-st66-16-1-mp-digital-camera/camera-camcorders/digital-cameras/product:30409920/cid:3183/?pos=64
   image: http://stat.homeshop18.com/homeshop18/images/productImages/796/300x300_664ad8b5794a6bef4dde310409b01667.jpg
   name: Samsung ST66 16.1 MP Digital Camera
   price: '6490'
   category: compacts
 - url: |
-    http://www.homeshop18.com/canon-sx50-12-1-mp-digital-camera/camera-camcorders/digital-cameras/product:30366842/cid:3182/?pos=66
+    http://www.homeshop18.com/canon-sx50-12-1-mp-digital-camera/camera-camcorders/digital-cameras/product:30366842/cid:3182/?pos=65
   image: http://stat.homeshop18.com/homeshop18/images/productImages/423/300x300_72977cd81b1e010352f14645c1d22492.jpg
   name: Canon SX50 12.1 MP Digital Camera
   price: '29095'
   category: compacts
 - url: |
-    http://www.homeshop18.com/panasonic-lumix-dmc-fh6-14-1-mp-digital-camera/camera-camcorders/digital-cameras/product:29921513/cid:3183/?pos=67
+    http://www.homeshop18.com/panasonic-lumix-dmc-fh6-14-1-mp-digital-camera/camera-camcorders/digital-cameras/product:29921513/cid:3183/?pos=66
   image: http://stat.homeshop18.com/homeshop18/images/productImages/833/300x300_23443e8a00a2bb6eeeec84b220b94785.jpg
   name: ! 'Panasonic Lumix DMC - FH6 14.1 MP Digital Camera '
   price: '7300'
   category: compacts
 - url: |
-    http://www.homeshop18.com/canon-ixus-125-hs-digital-camera/camera-camcorders/digital-cameras/product:28407957/cid:3183/?pos=68
+    http://www.homeshop18.com/canon-ixus-125-hs-digital-camera/camera-camcorders/digital-cameras/product:28407957/cid:3183/?pos=67
   image: http://stat.homeshop18.com/homeshop18/images/productImages/115/300x300_c06d4af13911ed722bc3abded4c2d708.jpg
   name: Canon IXUS 125 HS Digital Camera
   price: '13575'
   category: compacts
 - url: |
-    http://www.homeshop18.com/panasonic-dmc-fh7-digital-camera-freebie/camera-camcorders/digital-cameras/product:30408132/cid:3183/?pos=69
+    http://www.homeshop18.com/panasonic-dmc-fh7-digital-camera-freebie/camera-camcorders/digital-cameras/product:30408132/cid:3183/?pos=68
   image: http://stat.homeshop18.com/homeshop18/images/productImages/64/300x300_ccf2fb1bb7de9d8e916de6579b06707b.jpg
   name: Panasonic DMC-FH7 Digital Camera with Freebie
   price: '7499'
   category: compacts
 - url: |
-    http://www.homeshop18.com/samsung-dv100-16-1-mp-digital-camera/camera-camcorders/digital-cameras/product:30409914/cid:3183/?pos=70
+    http://www.homeshop18.com/samsung-dv100-16-1-mp-digital-camera/camera-camcorders/digital-cameras/product:30409914/cid:3183/?pos=69
   image: http://stat.homeshop18.com/homeshop18/images/productImages/611/300x300_cd4a9bc6ae1905b22e6bb94e18aec3b7.jpg
   name: Samsung DV100 16.1 MP Digital Camera
   price: '7690'
   category: compacts
 - url: |
-    http://www.homeshop18.com/olympus-vg-170-14-mp-digital-camera/camera-camcorders/digital-cameras/product:29450109/cid:3183/?pos=71
+    http://www.homeshop18.com/olympus-vg-170-14-mp-digital-camera/camera-camcorders/digital-cameras/product:29450109/cid:3183/?pos=70
   image: http://stat.homeshop18.com/homeshop18/images/productImages/299/300x300_4a975e0d08450e50f99632557277bd04.jpg
   name: Olympus VG 170 14 MP Digital Camera
   price: '7799'
   category: compacts
 - url: |
-    http://www.homeshop18.com/panasonic-lumix-dmc-fh8-16-1-mp-digital-camera/camera-camcorders/digital-cameras/product:29921515/cid:3183/?pos=72
+    http://www.homeshop18.com/panasonic-lumix-dmc-fh8-16-1-mp-digital-camera/camera-camcorders/digital-cameras/product:29921515/cid:3183/?pos=71
   image: http://stat.homeshop18.com/homeshop18/images/productImages/644/300x300_240b3f9e6b17cf59e9f967a628ad6086.jpg
   name: ! 'Panasonic Lumix DMC - FH8 16.1 MP Digital Camera '
   price: '7800'
   category: compacts
 - url: |
-    http://www.homeshop18.com/olympus-sp-810uz-14-mp-digital-camera/camera-camcorders/digital-cameras/product:30334180/cid:3183/?pos=73
+    http://www.homeshop18.com/olympus-sp-810uz-14-mp-digital-camera/camera-camcorders/digital-cameras/product:30334180/cid:3183/?pos=72
   image: http://stat.homeshop18.com/homeshop18/images/productImages/999/300x300_e0c6ffe49a1f8522f6e05f2ea0a1bf9a.jpg
   name: Olympus SP 810UZ 14 MP Digital Camera
   price: '15499'
   category: compacts
 - url: |
-    http://www.homeshop18.com/panasonic-lz20-16-1-mp-digital-camera-black/camera-camcorders/digital-cameras/product:30325458/cid:3183/?pos=74
+    http://www.homeshop18.com/panasonic-lz20-16-1-mp-digital-camera-black/camera-camcorders/digital-cameras/product:30325458/cid:3183/?pos=73
   image: http://stat.homeshop18.com/homeshop18/images/productImages/538/300x300_e8885f6dbd21816f29e0b428b6507617.jpg
   name: Panasonic LZ20 16.1 MP Digital Camera (Black)
   price: '12200'
   category: compacts
 - url: |
-    http://www.homeshop18.com/olympus-vr-350-16-mp-digital-camera-black/camera-camcorders/digital-cameras/product:30369534/cid:3183/?pos=75
+    http://www.homeshop18.com/olympus-vr-350-16-mp-digital-camera-black/camera-camcorders/digital-cameras/product:30369534/cid:3183/?pos=74
   image: http://stat.homeshop18.com/homeshop18/images/productImages/951/300x300_43c1ddab9319abcad858a7bfa32be3cc.jpg
   name: Olympus VR 350 16 MP Digital Camera (Black)
   price: '8720'
   category: compacts
 - url: |
-    http://www.homeshop18.com/fujifilm-finepix-s3300-14-mp-digital-camera/camera-camcorders/digital-cameras/product:30129868/cid:3183/?pos=76
+    http://www.homeshop18.com/fujifilm-finepix-s3300-14-mp-digital-camera/camera-camcorders/digital-cameras/product:30129868/cid:3183/?pos=75
   image: http://stat.homeshop18.com/homeshop18/images/productImages/223/300x300_679d3fc58a7d8c8db4ca697dd19f9918.jpg
   name: Fujifilm Finepix S3300 14 MP Digital Camera
   price: '13999'
   category: compacts
 - url: |
-    http://www.homeshop18.com/fujifilm-finepix-t200-14mp-digital-camera/camera-camcorders/digital-cameras/product:30119924/cid:3182/?pos=77
+    http://www.homeshop18.com/fujifilm-finepix-t200-14mp-digital-camera/camera-camcorders/digital-cameras/product:30119924/cid:3182/?pos=76
   image: http://stat.homeshop18.com/homeshop18/images/productImages/294/300x300_46ce87718e874627389391c245660211.jpg
   name: Fujifilm Finepix T200 14MP Digital Camera
   price: '9090'
   category: compacts
 - url: |
-    http://www.homeshop18.com/canon-ixus-240-hs-digital-camera/camera-camcorders/digital-cameras/product:30325010/cid:3183/?pos=78
+    http://www.homeshop18.com/canon-ixus-240-hs-digital-camera/camera-camcorders/digital-cameras/product:30325010/cid:3183/?pos=77
   image: http://stat.homeshop18.com/homeshop18/images/productImages/395/300x300_df3d218378a402dd1711782298999221.jpg
   name: Canon IXUS 240 HS Digital Camera
   price: '15515'
   category: compacts
 - url: |
-    http://www.homeshop18.com/panasonic-dmc-sz1-digital-camera-freebie/camera-camcorders/digital-cameras/product:30408134/cid:3183/?pos=79
+    http://www.homeshop18.com/panasonic-dmc-sz1-digital-camera-freebie/camera-camcorders/digital-cameras/product:30408134/cid:3183/?pos=78
   image: http://stat.homeshop18.com/homeshop18/images/productImages/70/300x300_23c83cf6a63260a3a8526253a26bcdc9.jpg
   name: Panasonic DMC- SZ1 Digital Camera with Freebie
   price: '9729'
   category: compacts
 - url: |
-    http://www.homeshop18.com/panasonic-lumix-dmc-sz1-16-1-mp-digital-camera/camera-camcorders/digital-cameras/product:29921517/cid:3183/?pos=80
+    http://www.homeshop18.com/panasonic-lumix-dmc-sz1-16-1-mp-digital-camera/camera-camcorders/digital-cameras/product:29921517/cid:3183/?pos=79
   image: http://stat.homeshop18.com/homeshop18/images/productImages/920/300x300_9a50acc84fb49aa3070fcbe0968eded1.jpg
   name: ! 'Panasonic Lumix DMC - SZ1 16.1 MP Digital Camera '
   price: '9800'
   category: compacts
 - url: |
-    http://www.homeshop18.com/samsung-st200f-16-1-mp-digital-camera/camera-camcorders/digital-cameras/product:30409926/cid:3183/?pos=81
+    http://www.homeshop18.com/samsung-st200f-16-1-mp-digital-camera/camera-camcorders/digital-cameras/product:30409926/cid:3183/?pos=80
   image: http://stat.homeshop18.com/homeshop18/images/productImages/374/300x300_bb8a005df3f68d436f07e8509ee930ba.jpg
   name: Samsung ST200F 16.1 MP Digital Camera
   price: '9900'
   category: compacts
 - url: |
-    http://www.homeshop18.com/samsung-dv300f-16-mp-digital-camera/camera-camcorders/digital-cameras/product:30409928/cid:3183/?pos=82
+    http://www.homeshop18.com/samsung-dv300f-16-mp-digital-camera/camera-camcorders/digital-cameras/product:30409928/cid:3183/?pos=81
   image: http://stat.homeshop18.com/homeshop18/images/productImages/975/300x300_52abd94c40fe3e449f5cca8a5eac7508.jpg
   name: Samsung DV300F 16 MP Digital Camera
   price: '9900'
   category: compacts
 - url: |
-    http://www.homeshop18.com/canon-power-shot-sx260-hs-digital-camera/camera-camcorders/digital-cameras/product:28563029/cid:3183/?pos=83
+    http://www.homeshop18.com/canon-power-shot-sx260-hs-digital-camera/camera-camcorders/digital-cameras/product:28563029/cid:3183/?pos=82
   image: http://stat.homeshop18.com/homeshop18/images/productImages/225/300x300_f119008af5d19dcce9f7c263f59a9cc0.jpg
   name: Canon Power Shot SX260 HS Digital Camera
   price: '18425'
   category: compacts
 - url: |
-    http://www.homeshop18.com/sony-rx100-digital-camera-black/camera-camcorders/digital-cameras/product:30325014/cid:3183/?pos=84
+    http://www.homeshop18.com/sony-rx100-digital-camera-black/camera-camcorders/digital-cameras/product:30325014/cid:3183/?pos=83
   image: http://stat.homeshop18.com/homeshop18/images/productImages/8/300x300_ba541dab7198021bd8ba8d0ced96a4f1.jpg
   name: Sony RX100 Digital Camera (Black)
   price: '34500'
   category: compacts
 - url: |
-    http://www.homeshop18.com/samsung-wb150f-14-2-mp-digital-camera/camera-camcorders/digital-cameras/product:30409918/cid:3183/?pos=85
+    http://www.homeshop18.com/samsung-wb150f-14-2-mp-digital-camera/camera-camcorders/digital-cameras/product:30409918/cid:3183/?pos=84
   image: http://stat.homeshop18.com/homeshop18/images/productImages/488/300x300_35900a474c39577dd098ba6dd8ac642e.jpg
   name: Samsung WB150F 14.2 MP Digital Camera
   price: '12490'
   category: compacts
 - url: |
-    http://www.homeshop18.com/nikon-s6400-16mp-digital-camera/camera-camcorders/digital-cameras/product:30425408/cid:3183/?pos=86
+    http://www.homeshop18.com/nikon-s6400-16mp-digital-camera/camera-camcorders/digital-cameras/product:30425408/cid:3183/?pos=85
   image: http://stat.homeshop18.com/homeshop18/images/productImages/142/300x300_d8fd14fce6f91419fecc9b527fb967e3.jpg
   name: Nikon S6400 16MP Digital Camera
   price: '12560'
   category: compacts
 - url: |
-    http://www.homeshop18.com/samsung-wb100-16-2mp-digital-camera/camera-camcorders/digital-cameras/product:30409924/cid:3183/?pos=87
+    http://www.homeshop18.com/samsung-wb100-16-2mp-digital-camera/camera-camcorders/digital-cameras/product:30409924/cid:3183/?pos=86
   image: http://stat.homeshop18.com/homeshop18/images/productImages/308/300x300_7faef0f90993926062a0d3396f100c59.jpg
   name: Samsung WB100 16.2MP Digital Camera
   price: '13490'
   category: compacts
 - url: |
-    http://www.homeshop18.com/fujifilm-4500-14-mp-digital-camera/camera-camcorders/digital-cameras/product:29368491/cid:3183/?pos=88
+    http://www.homeshop18.com/fujifilm-4500-14-mp-digital-camera/camera-camcorders/digital-cameras/product:29368491/cid:3183/?pos=87
   image: http://stat.homeshop18.com/homeshop18/images/productImages/743/300x300_e7d0b0fca2e67cfc53319346752abc03.jpg
   name: Fujifilm S-4500 14 MP Digital Camera
   price: '14499'
   category: compacts
 - url: |
-    http://www.homeshop18.com/olympus-sz-14-14-mp-digital-camera/camera-camcorders/digital-cameras/product:29450115/cid:3183/?pos=89
+    http://www.homeshop18.com/olympus-sz-14-14-mp-digital-camera/camera-camcorders/digital-cameras/product:29450115/cid:3183/?pos=88
   image: http://stat.homeshop18.com/homeshop18/images/productImages/451/300x300_166f8bb63e0478556da53637e0e7b143.jpg
   name: Olympus SZ-14 14 MP Digital Camera
   price: '14549'
   category: compacts
 - url: |
-    http://www.homeshop18.com/fujifilm-hs-25-exr-16-mp-digital-camera/camera-camcorders/digital-cameras/product:29368497/cid:3183/?pos=90
+    http://www.homeshop18.com/fujifilm-hs-25-exr-16-mp-digital-camera/camera-camcorders/digital-cameras/product:29368497/cid:3183/?pos=89
   image: http://stat.homeshop18.com/homeshop18/images/productImages/533/300x300_1f185d13834e71653e98f6141615f894.jpg
   name: Fujifilm HS-25 EXR 16 MP Digital Camera
   price: '19999'
   category: compacts
 - url: |
-    http://www.homeshop18.com/fujifilm-f-660-exr-16-mp-digital-camera/camera-camcorders/digital-cameras/product:29368495/cid:3183/?pos=91
+    http://www.homeshop18.com/fujifilm-f-660-exr-16-mp-digital-camera/camera-camcorders/digital-cameras/product:29368495/cid:3183/?pos=90
   image: http://stat.homeshop18.com/homeshop18/images/productImages/524/300x300_5c88d7fb3c01cbf79ed594e0deee8a4b.jpg
   name: Fujifilm F-660 EXR 16 MP Digital Camera
   price: '15499'
   category: compacts
 - url: |
-    http://www.homeshop18.com/nikon-coolpix-p310-16-1-mp-digital-camera/camera-camcorders/digital-cameras/product:29554807/cid:3183/?pos=92
+    http://www.homeshop18.com/nikon-coolpix-p310-16-1-mp-digital-camera/camera-camcorders/digital-cameras/product:29554807/cid:3183/?pos=91
   image: http://stat.homeshop18.com/homeshop18/images/productImages/849/300x300_b7e3c03c832b27cb87fa270a06617e3d.jpg
   name: Nikon Coolpix P310 16.1 MP Digital Camera
   price: '16610'
   category: compacts
 - url: |
-    http://www.homeshop18.com/fujifilm-sl-300-14-mp-digital-camera/camera-camcorders/digital-cameras/product:29368493/cid:3183/?pos=93
+    http://www.homeshop18.com/fujifilm-sl-300-14-mp-digital-camera/camera-camcorders/digital-cameras/product:29368493/cid:3183/?pos=92
   image: http://stat.homeshop18.com/homeshop18/images/productImages/838/300x300_20197432866c45bba8152a26f844004f.jpg
   name: Fujifilm SL-300 14 MP Digital Camera
   price: '16999'
   category: compacts
 - url: |
-    http://www.homeshop18.com/fujifilm-finepix-sl260-14mp-digital-camera/camera-camcorders/digital-cameras/product:30119926/cid:3182/?pos=94
+    http://www.homeshop18.com/fujifilm-finepix-sl260-14mp-digital-camera/camera-camcorders/digital-cameras/product:30119926/cid:3182/?pos=93
   image: http://stat.homeshop18.com/homeshop18/images/productImages/181/300x300_dcb79550bc3b614fd8ec105e1ab4034b.jpg
   name: Fujifilm Finepix SL260 14MP Digital Camera
   price: '17170'
   category: compacts
 - url: |
-    http://www.homeshop18.com/canon-sx240-hs-12-1-mp-digital-camera/camera-camcorders/digital-cameras/product:29450199/cid:3183/?pos=95
+    http://www.homeshop18.com/canon-sx240-hs-12-1-mp-digital-camera/camera-camcorders/digital-cameras/product:29450199/cid:3183/?pos=94
   image: http://stat.homeshop18.com/homeshop18/images/productImages/431/300x300_0bca63563176309014ba4a30b565d70b.jpg
   name: Canon SX240 HS 12.1 MP Digital Camera
   price: '17455'
   category: compacts
 - url: |
-    http://www.homeshop18.com/canon-ixus-500-hs-digital-camera/camera-camcorders/digital-cameras/product:30325012/cid:3182/?pos=96
+    http://www.homeshop18.com/canon-ixus-500-hs-digital-camera/camera-camcorders/digital-cameras/product:30325012/cid:3182/?pos=95
   image: http://stat.homeshop18.com/homeshop18/images/productImages/338/300x300_c089e669f6005698f9f9aa691384bcc1.jpg
   name: Canon IXUS 500 HS Digital Camera
   price: '17455'
   category: compacts
 - url: |
-    http://www.homeshop18.com/canon-ixus-510-digital-camera/camera-camcorders/digital-cameras/product:28768925/cid:3182/?pos=97
+    http://www.homeshop18.com/canon-ixus-510-digital-camera/camera-camcorders/digital-cameras/product:28768925/cid:3182/?pos=96
   image: http://stat.homeshop18.com/homeshop18/images/productImages/799/300x300_40a53e0d5f26d5fdea435a930667864c.jpg
   name: Canon IXUS 510 Digital Camera
   price: '19395'
   category: compacts
 - url: |
-    http://www.homeshop18.com/panasonic-lumix-dmc-tz30-14-1-mp-digital-camera/camera-camcorders/digital-cameras/product:29921521/cid:3183/?pos=98
+    http://www.homeshop18.com/panasonic-lumix-dmc-tz30-14-1-mp-digital-camera/camera-camcorders/digital-cameras/product:29921521/cid:3183/?pos=97
   image: http://stat.homeshop18.com/homeshop18/images/productImages/7/300x300_b38b9976dfe066d7e8fd6642e25d1996.jpg
   name: ! 'Panasonic Lumix DMC - TZ30 14.1 MP Digital Camera '
   price: '19390'
   category: compacts
 - url: |
-    http://www.homeshop18.com/canon-sx500-16-mp-digital-camera-black/camera-camcorders/digital-cameras/product:30325434/cid:3183/?pos=99
+    http://www.homeshop18.com/canon-sx500-16-mp-digital-camera-black/camera-camcorders/digital-cameras/product:30325434/cid:3183/?pos=98
   image: http://stat.homeshop18.com/homeshop18/images/productImages/570/300x300_bdb278aba1ba412e0de3bd2e6b4fe54d.jpg
   name: Canon SX500 16 MP Digital Camera (Black)
   price: '19395'
   category: compacts
 - url: |
-    http://www.homeshop18.com/nikon-s800c-16-mp-digital-camera/camera-camcorders/digital-cameras/product:30407398/cid:3183/?pos=100
+    http://www.homeshop18.com/nikon-s800c-16-mp-digital-camera/camera-camcorders/digital-cameras/product:30407398/cid:3183/?pos=99
   image: http://stat.homeshop18.com/homeshop18/images/productImages/280/300x300_ec907e7c401f8d74de22162ae632b86c.jpg
   name: Nikon S800c 16 MP Digital Camera
   price: '20320'
   category: compacts
 - url: |
-    http://www.homeshop18.com/panasonic-lumix-dmc-fz47-12-1-mp-digital-camera-black/camera-camcorders/digital-cameras/product:29921523/cid:3182/?pos=101
+    http://www.homeshop18.com/panasonic-lumix-dmc-fz47-12-1-mp-digital-camera-black/camera-camcorders/digital-cameras/product:29921523/cid:3182/?pos=100
   image: http://stat.homeshop18.com/homeshop18/images/productImages/115/300x300_48a01af5784085cac6af66c903fb570c.jpg
   name: Panasonic Lumix DMC - FZ47 12.1 MP Digital Camera (Black)
   price: '20360'
+  category: compacts
+- url: |
+    http://www.homeshop18.com/olympus-sz31-mr-16-mp-digital-camera/camera-camcorders/digital-cameras/product:30368998/cid:3183/?pos=101
+  image: http://stat.homeshop18.com/homeshop18/images/productImages/258/300x300_5eccd1eb8669992b2c257acba04977eb.jpg
+  name: ! 'Olympus SZ31 MR 16 MP Digital Camera '
+  price: '21330'
   category: compacts
 - url: |
     http://www.homeshop18.com/olympus-sh25-mr-16-mp-digital-camera/camera-camcorders/digital-cameras/product:30368996/cid:3183/?pos=102
@@ -1057,118 +1057,118 @@
   price: '21330'
   category: compacts
 - url: |
-    http://www.homeshop18.com/olympus-sz31-mr-16-mp-digital-camera/camera-camcorders/digital-cameras/product:30368998/cid:3183/?pos=103
-  image: http://stat.homeshop18.com/homeshop18/images/productImages/258/300x300_5eccd1eb8669992b2c257acba04977eb.jpg
-  name: ! 'Olympus SZ31 MR 16 MP Digital Camera '
-  price: '21330'
-  category: compacts
-- url: |
-    http://www.homeshop18.com/nikon-coolpix-p7100-10-1-mp-digital-camera/camera-camcorders/digital-cameras/product:29554811/cid:3182/?pos=104
+    http://www.homeshop18.com/nikon-coolpix-p7100-10-1-mp-digital-camera/camera-camcorders/digital-cameras/product:29554811/cid:3182/?pos=103
   image: http://stat.homeshop18.com/homeshop18/images/productImages/695/300x300_a503d04e5acc54d7f3fe70de9ffc94f0.jpg
   name: Nikon Coolpix P7100 10.1 MP Digital Camera
   price: '22485'
   category: compacts
 - url: |
-    http://www.homeshop18.com/canon-g12-10-mp-digital-camera/camera-camcorders/digital-cameras/product:30366844/cid:3182/?pos=105
+    http://www.homeshop18.com/canon-g12-10-mp-digital-camera/camera-camcorders/digital-cameras/product:30366844/cid:3182/?pos=104
   image: http://stat.homeshop18.com/homeshop18/images/productImages/272/300x300_fcad32a72464baaed241ccd03600df4f.jpg
   name: Canon G12 10 MP Digital Camera
   price: '24245'
   category: compacts
 - url: |
-    http://www.homeshop18.com/panasonic-fz60-16-1-mp-digital-camera-black/camera-camcorders/digital-cameras/product:30325460/cid:3183/?pos=106
+    http://www.homeshop18.com/panasonic-fz60-16-1-mp-digital-camera-black/camera-camcorders/digital-cameras/product:30325460/cid:3183/?pos=105
   image: http://stat.homeshop18.com/homeshop18/images/productImages/777/300x300_2e0270b30fb5b085a4576bf68076d637.jpg
   name: Panasonic FZ60 16.1 MP Digital Camera (Black)
   price: '24490'
   category: compacts
 - url: |
-    http://www.homeshop18.com/olympus-xz-1-10-mp-digital-camera/camera-camcorders/digital-cameras/product:29450121/cid:3182/?pos=107
+    http://www.homeshop18.com/olympus-xz-1-10-mp-digital-camera/camera-camcorders/digital-cameras/product:29450121/cid:3182/?pos=106
   image: http://stat.homeshop18.com/homeshop18/images/productImages/78/300x300_a66205e1819fd5a0c6797e285eb375bc.jpg
   name: Olympus XZ 1 10 MP Digital Camera
   price: '25500'
   category: compacts
 - url: |
-    http://www.homeshop18.com/samsung-gc-100-galaxy-camera/camera-camcorders/digital-cameras/product:30409932/cid:3183/?pos=108
+    http://www.homeshop18.com/samsung-gc-100-galaxy-camera/camera-camcorders/digital-cameras/product:30409932/cid:3183/?pos=107
   image: http://stat.homeshop18.com/homeshop18/images/productImages/682/300x300_a22f2e6f8cbd9cf47fa3ef2def02c703.jpg
   name: Samsung GC-100 Galaxy Camera
   price: '29900'
   category: compacts
 - url: |
-    http://www.homeshop18.com/panasonic-fz200-12-1-mp-digital-camera-black/camera-camcorders/digital-cameras/product:30325462/cid:3182/?pos=109
+    http://www.homeshop18.com/panasonic-fz200-12-1-mp-digital-camera-black/camera-camcorders/digital-cameras/product:30325462/cid:3182/?pos=108
   image: http://stat.homeshop18.com/homeshop18/images/productImages/935/300x300_6478675573de8518119d696af4c3fb95.jpg
   name: Panasonic FZ200 12.1 MP Digital Camera (Black)
   price: '34290'
   category: compacts
 - url: |
-    http://www.homeshop18.com/samsung-nx-1000-20-3mp-digital-camera/camera-camcorders/digital-cameras/product:30409930/cid:3183/?pos=110
+    http://www.homeshop18.com/samsung-nx-1000-20-3mp-digital-camera/camera-camcorders/digital-cameras/product:30409930/cid:3183/?pos=109
   image: http://stat.homeshop18.com/homeshop18/images/productImages/488/300x300_674cbfb3b90a14fa8583da48d4f95491.jpg
   name: Samsung NX-1000 20.3MP Digital Camera
   price: '34900'
   category: compacts
 - url: |
-    http://www.homeshop18.com/fujifilm-x-10-12-mp-digital-camera/camera-camcorders/digital-cameras/product:29368499/cid:3182/?pos=111
+    http://www.homeshop18.com/fujifilm-x-10-12-mp-digital-camera/camera-camcorders/digital-cameras/product:29368499/cid:3182/?pos=110
   image: http://stat.homeshop18.com/homeshop18/images/productImages/27/300x300_e3dd77b8752d39f7b2f067a7c38c6cfa.jpg
   name: Fujifilm X-10 12 MP Digital Camera
   price: '40400'
   category: compacts
 - url: |
-    http://www.homeshop18.com/canon-powershot-g1x-digital-camera/camera-camcorders/digital-cameras/product:28597731/cid:3182/?pos=112
+    http://www.homeshop18.com/canon-powershot-g1x-digital-camera/camera-camcorders/digital-cameras/product:28597731/cid:3182/?pos=111
   image: http://stat.homeshop18.com/homeshop18/images/productImages/62/300x300_10f130187b028568cd432c015046c7d9.jpg
   name: Canon Powershot G1X Digital Camera
   price: '46555'
   category: compacts
 - url: |
-    http://www.homeshop18.com/fujifilm-xs-1-12-mp-digital-camera/camera-camcorders/digital-cameras/product:29368503/cid:3182/?pos=113
+    http://www.homeshop18.com/fujifilm-xs-1-12-mp-digital-camera/camera-camcorders/digital-cameras/product:29368503/cid:3182/?pos=112
   image: http://stat.homeshop18.com/homeshop18/images/productImages/646/300x300_8381989820f10bb043a1f8c9e57a33ec.jpg
   name: Fujifilm XS-1 12 MP Digital Camera
   price: '55550'
   category: compacts
 - url: |
-    http://www.homeshop18.com/fujifilm-x-100-12-3-mp-digital-camera/camera-camcorders/digital-cameras/product:29368501/cid:3182/?pos=114
+    http://www.homeshop18.com/fujifilm-x-100-12-3-mp-digital-camera/camera-camcorders/digital-cameras/product:29368501/cid:3182/?pos=113
   image: http://stat.homeshop18.com/homeshop18/images/productImages/948/300x300_02572be7e23285f26b9df5ea7dbebd2f.jpg
   name: Fujifilm X-100 12.3 MP Digital Camera
   price: '75750'
   category: compacts
 - url: |
-    http://www.homeshop18.com/canon-powershot-10mp-fully-featured-digital-camera-a800/camera-camcorders/digital-cameras/product:218149/cid:3182/?pos=115
+    http://www.homeshop18.com/canon-powershot-10mp-fully-featured-digital-camera-a800/camera-camcorders/digital-cameras/product:218149/cid:3182/?pos=114
   image: http://stat.homeshop18.com/homeshop18/images/productImages/657/300x300_e181bf4a533cecc2907608315888b6d7.jpg
   name: Canon PowerShot 10MP Fully Featured Digital Camera- A800
   price: '3875'
   category: compacts
 - url: |
-    http://www.homeshop18.com/olympus-vg-130-14-mp-digital-camera/camera-camcorders/digital-cameras/product:28005663/cid:3183/?pos=116
+    http://www.homeshop18.com/olympus-vg-130-14-mp-digital-camera/camera-camcorders/digital-cameras/product:28005663/cid:3183/?pos=115
   image: http://stat.homeshop18.com/homeshop18/images/productImages/760/300x300_d79c86cbdb20e7791b887ce4fbba94ac.jpg
   name: Olympus VG-130 14 MP Digital Camera
   price: '4599'
   category: compacts
 - url: |
-    http://www.homeshop18.com/samsung-12-mp-digital-compact-camera-4x-zoom/camera-camcorders/digital-cameras/product:16521121/cid:3182/?pos=117
+    http://www.homeshop18.com/samsung-12-mp-digital-compact-camera-4x-zoom/camera-camcorders/digital-cameras/product:16521121/cid:3182/?pos=116
   image: http://stat.homeshop18.com/homeshop18/images/productImages/588/300x300_8b7974f4c42392d3e6542778d5fd60e1.jpg
   name: Samsung 12 MP Digital Compact Camera with 4x Zoom
   price: '3999'
   category: compacts
 - url: |
-    http://www.homeshop18.com/olympus-10-megapixel-digital-camera-model-t10/camera-camcorders/digital-cameras/product:118391/cid:3182/?pos=118
+    http://www.homeshop18.com/olympus-10-megapixel-digital-camera-model-t10/camera-camcorders/digital-cameras/product:118391/cid:3182/?pos=117
   image: http://stat.homeshop18.com/homeshop18/images/productImages/9/300x300_bc9fb10c62ed6ace604099ded1361108.jpg
   name: ! 'Olympus 10 Megapixel Digital Camera Model No: T10'
   price: '2699'
   category: compacts
 - url: |
-    http://www.homeshop18.com/nikon-coolpix-camera-5x-zoom/camera-camcorders/digital-cameras/product:27737631/cid:3182/?pos=119
+    http://www.homeshop18.com/nikon-coolpix-camera-5x-zoom/camera-camcorders/digital-cameras/product:27737631/cid:3182/?pos=118
   image: http://stat.homeshop18.com/homeshop18/images/productImages/650/300x300_17ef45a2d062d79bf0c08cd6e037719f.jpg
   name: Nikon Coolpix Camera with 5x Zoom
   price: '4355'
   category: compacts
 - url: |
-    http://www.homeshop18.com/kodak-easyshare-mini-10-mp-digital-camera-3x-zoom/camera-camcorders/digital-cameras/product:227343/cid:3182/?pos=120
+    http://www.homeshop18.com/kodak-easyshare-mini-10-mp-digital-camera-3x-zoom/camera-camcorders/digital-cameras/product:227343/cid:3182/?pos=119
   image: http://stat.homeshop18.com/homeshop18/images/productImages/688/300x300_f467f0f7c781cfd9e259df062bf58af1.jpg
   name: Kodak EasyShare Mini 10 MP Digital Camera with 3x Zoom
   price: '4299'
   category: compacts
 - url: |
-    http://www.homeshop18.com/samsung-es28-12-mp-digital-camera-5x-optical-zoom/camera-camcorders/digital-cameras/product:256597/cid:3182/?pos=121
+    http://www.homeshop18.com/samsung-es28-12-mp-digital-camera-5x-optical-zoom/camera-camcorders/digital-cameras/product:256597/cid:3182/?pos=120
   image: http://stat.homeshop18.com/homeshop18/images/productImages/796/300x300_48bcf700e601fc01265d21fe1cbc2110.jpg
   name: Samsung ES28 - 12 MP Digital Camera with 5x Optical Zoom
   price: '3999'
+  category: compacts
+- url: |
+    http://www.homeshop18.com/canon-power-shot-camera-12-1-mega-pixel-4-x-zoom-a1200/camera-camcorders/digital-cameras/product:28105123/cid:3182/?pos=121
+  image: http://stat.homeshop18.com/homeshop18/images/productImages/633/300x300_9c349279776852ed7acdf5b930fab3d1.jpg
+  name: Canon Power Shot Camera - 12.1 Mega Pixel & 4 X Zoom - A1200
+  price: '4360'
   category: compacts
 - url: |
     http://www.homeshop18.com/kodak-easyshare-12-mp-digital-camera-3x-zoom-2-7-inch-lcd-display/camera-camcorders/digital-cameras/product:258187/cid:3182/?pos=122
@@ -1303,16 +1303,16 @@
   price: '16485'
   category: lenses
 - url: |
-    http://www.homeshop18.com/sony-dt-30mm-f-2-8-macro-lens/camera-camcorders/accessories/product:28640913/cid:8931/?pos=13
-  image: http://stat.homeshop18.com/homeshop18/images/productImages/836/300x300_5346b95f2e502f3b51510eb416529f44.jpg
-  name: Sony DT 30mm f/2.8 Macro Lens
-  price: '12600'
-  category: lenses
-- url: |
-    http://www.homeshop18.com/canon-ef-40mm-f-2-8-stm-lens/camera-camcorders/accessories/product:30325018/cid:8931/?pos=14
+    http://www.homeshop18.com/canon-ef-40mm-f-2-8-stm-lens/camera-camcorders/accessories/product:30325018/cid:8931/?pos=13
   image: http://stat.homeshop18.com/homeshop18/images/productImages/502/300x300_0f7067237ea1a016f06ad34620453d6d.jpg
   name: Canon EF 40mm f/2.8 STM Lens
   price: '12605'
+  category: lenses
+- url: |
+    http://www.homeshop18.com/sony-dt-30mm-f-2-8-macro-lens/camera-camcorders/accessories/product:28640913/cid:8931/?pos=14
+  image: http://stat.homeshop18.com/homeshop18/images/productImages/836/300x300_5346b95f2e502f3b51510eb416529f44.jpg
+  name: Sony DT 30mm f/2.8 Macro Lens
+  price: '12600'
   category: lenses
 - url: |
     http://www.homeshop18.com/sony-75-300-f-4-5-6-dslr-lens/camera-camcorders/accessories/product:27739967/cid:8931/?pos=15
@@ -1369,15 +1369,15 @@
   price: '28977'
   category: lenses
 - url: |
-    http://www.homeshop18.com/canon-ef-85mm-f-1-8-usm-lens/camera-camcorders/accessories/product:27902837/cid:8931/?pos=24
-  image: http://stat.homeshop18.com/homeshop18/images/productImages/461/300x300_0cc36f8133239a76f3c3ed076e746e75.jpg
-  name: Canon EF 85mm f/1.8 USM Lens
+    http://www.homeshop18.com/canon-ef-50mm-f-1-4-usm-lens/camera-camcorders/accessories/product:16451183/cid:8931/?pos=24
+  image: http://stat.homeshop18.com/homeshop18/images/productImages/644/300x300_90eef846b14e651a223ce2155d932bf9.jpg
+  name: Canon EF 50mm f/1.4 USM Lens
   price: '32005'
   category: lenses
 - url: |
-    http://www.homeshop18.com/canon-ef-50mm-f-1-4-usm-lens/camera-camcorders/accessories/product:16451183/cid:8931/?pos=25
-  image: http://stat.homeshop18.com/homeshop18/images/productImages/644/300x300_90eef846b14e651a223ce2155d932bf9.jpg
-  name: Canon EF 50mm f/1.4 USM Lens
+    http://www.homeshop18.com/canon-ef-85mm-f-1-8-usm-lens/camera-camcorders/accessories/product:27902837/cid:8931/?pos=25
+  image: http://stat.homeshop18.com/homeshop18/images/productImages/461/300x300_0cc36f8133239a76f3c3ed076e746e75.jpg
+  name: Canon EF 85mm f/1.8 USM Lens
   price: '32005'
   category: lenses
 - url: |
@@ -1423,22 +1423,22 @@
   price: '46555'
   category: lenses
 - url: |
-    http://www.homeshop18.com/sony-dt-16-80-f-3-5-4-5-zeiss-lens/camera-camcorders/accessories/product:29728801/cid:8931/?pos=33
-  image: http://stat.homeshop18.com/homeshop18/images/productImages/930/300x300_c7299f9bf89ef4b0d388c7679f01097f.jpg
-  name: Sony DT 16-80 f/3.5-4.5 Zeiss Lens
-  price: '48490'
-  category: lenses
-- url: |
-    http://www.homeshop18.com/sony-100mm-f-2-8-macro-lens/camera-camcorders/accessories/product:28640917/cid:8931/?pos=34
+    http://www.homeshop18.com/sony-100mm-f-2-8-macro-lens/camera-camcorders/accessories/product:28640917/cid:8931/?pos=33
   image: http://stat.homeshop18.com/homeshop18/images/productImages/636/300x300_9bdb2e5ea88c506da79527ad83c50cba.jpg
   name: Sony 100mm f/2.8 Macro Lens
   price: '48490'
   category: lenses
 - url: |
-    http://www.homeshop18.com/canon-ef-28mm-f-2-8-usm-lens/camera-camcorders/accessories/product:30325028/cid:8931/?pos=35
+    http://www.homeshop18.com/canon-ef-28mm-f-2-8-usm-lens/camera-camcorders/accessories/product:30325028/cid:8931/?pos=34
   image: http://stat.homeshop18.com/homeshop18/images/productImages/96/300x300_ab978a3cfd7eac730306f8bae8066974.jpg
   name: Canon EF 28mm f/2.8 IS USM Lens
   price: '48495'
+  category: lenses
+- url: |
+    http://www.homeshop18.com/sony-dt-16-80-f-3-5-4-5-zeiss-lens/camera-camcorders/accessories/product:29728801/cid:8931/?pos=35
+  image: http://stat.homeshop18.com/homeshop18/images/productImages/930/300x300_c7299f9bf89ef4b0d388c7679f01097f.jpg
+  name: Sony DT 16-80 f/3.5-4.5 Zeiss Lens
+  price: '48490'
   category: lenses
 - url: |
     http://www.homeshop18.com/canon-ef-24mm-f-2-8-usm-lens/camera-camcorders/accessories/product:30325030/cid:8931/?pos=36

@@ -2,10 +2,10 @@ class HomeShop18HTMLScraper < HTMLScraper
   @@slrs = "http://www.homeshop18.com/digital-slrs/categoryid:3188/search:*/start:START_OFFSET/"
   @@compacts = "http://www.homeshop18.com/digital-cameras/categoryid:3178/search:*/start:START_OFFSET/"
   @@lenses = "http://www.homeshop18.com/lens/categoryid:8931/search:*/start:START_OFFSET/"
-  @@camcoders = "http://www.homeshop18.com/camcorders/categoryid:3164/search:*/start:START_OFFSET/"
+  @@camcorders = "http://www.homeshop18.com/camcorders/categoryid:3164/search:*/start:START_OFFSET/"
 
   def initialize
-    @urls = {"slrs" => @@slrs, "camcoders" => @@camcoders, "compacts" => @@compacts, "lenses" => @@lenses }
+    @urls = {"slrs" => @@slrs, "camcorders" => @@camcorders, "compacts" => @@compacts, "lenses" => @@lenses }
     @complete_data = []
     @filename = HomeShop18Config::Filename
     @per_page = 24
