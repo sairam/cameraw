@@ -10,6 +10,7 @@ class LandMarkHTMLScraper < HTMLScraper
     @complete_data = []
     @filename = LandMarkConfig::Filename
     @per_page = 30
+    @base_url = "http://www.landmarkonthenet.com"
 
     @total_count = "div.pagination-wrapper ul.pagination li.items"
     @product_details = "article.product.product-cameras"
@@ -22,10 +23,10 @@ private
   def parse_data product_section
     print "."
     {
-    'url' => product_section.css('div.image > a').attr('href').value,
+    'url' => @base_url + product_section.css('div.image > a').attr('href').value,
     'image' => product_section.css('div.image > a img').attr('src').value,
     'name' => product_section.css('div.image > a img').attr('alt').value,
-    'price' => product_section.css('span.pricelabel span.WebRupee-print').text().strip.gsub(/Rs\.?/,'').gsub(',','').strip, # price section
+    'price' => product_section.css('span.pricelabel').text().strip.gsub('₹','').gsub(/Rs\.?/,'').gsub(',','').strip, # price section
     }
   end
 

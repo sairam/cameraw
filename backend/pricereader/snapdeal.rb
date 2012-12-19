@@ -1,34 +1,35 @@
 =begin
-Sample for BuythePrice
-  url: http://www.buytheprice.com/shop-online-deal/nikon-d7000---with-nikon-af-s-18-105mm-__907
-  image: http://static3.buytheprice.com/pimages/iproduct/907.jpg
-  name: Nikon D7000 ( WIth Nikon AF-S 18-105MM)
-  price: '77690'
-  category: 'slrs'
+- url: http://www.snapdeal.com/product/canon-eosm-181mp-mirrorless-camera/539316
+  image: http://i1.sdlcdn.com/img/product/main/80x93/UC_Cnn_EOS_M_18_55_Red_M_1_2xrz.jpg
+  name: Canon EOS-M 18.1MP Mirrorless Camera (Red) (18-55mm IS STM Lens) with Speedlite
+    90x Flash
+  price: 49995
+  category: slrs
+
 =end
 
-class BuyThePriceLinks < PriceReader
+class SnapDealLinks < PriceReader
   attr_accessor :filename, :product_categories
 
   def initialize
-    @filename = BuyThePriceConfig::Filename
+    @filename = SnapDealConfig::Filename
     @products = []
   end
 
   def load
-    @products = YAML::load(File.open(@filename).read).map { |product| BuyThePrice.new(product) }
+    @products = YAML::load(File.open(@filename).read).map { |product| SnapDeal.new(product) }
   end
 
 end
-class BuyThePrice < SimpleSource
+class SnapDeal < SimpleSource
   attr_accessor :brand_name
   def initialize(product)
     super(product)
-    @code = product['url'].split("__")[-1]  # sample is 907
+    @code = product['url'].split("/")[-1]  # sample is 539316
   end
 end
 
-# l = BuyThePriceLinks.new
+# l = SnapDealLinks.new
 # l.load
 # puts l.brands
 # puts l.brands_with_count

@@ -23,24 +23,17 @@ end
 class Zoomin < SimpleSource
   attr_accessor :brand_name
   def initialize(product)
-    @name = product['name'] # Canon EOS 60D Kit III Bundle (EF-S18-200mm f/3.5-5.6 IS Lens)
+    super(product)
     @code = product['url'].split("/")[-1].split(".")[0]  # sample is eos-60d-kit-iii-ef-s18-201
-    @url = product['url']   # sample is http://camera.zoomin.com/digital-slr/eos-60d-kit-iii-ef-s18-201.html
-    @image = product['image']
-    @price = product['price']
-    @source = self.class.name
     @category = product['category']
-    @brand, @model = @name.split(" ",2)
-    @brand_name = @brand
-    # shortdown_category
     # debug
   end
 end
 
-# l = ZoominLinks.new
-# l.load
+l = ZoominLinks.new
+l.load
 # puts l.brands
-# puts l.brands_with_count
+puts l.brands_with_count
 # puts l.categories
 # puts l.categories_with_count
 # binding.pry

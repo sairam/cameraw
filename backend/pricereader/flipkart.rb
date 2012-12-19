@@ -25,14 +25,9 @@ end
 class Flipkart < SimpleSource
   attr_accessor :brand_name
   def initialize(product)
-    @name = product['name'] # Nikon D3100 DSLR ( AF-S 18-55mm VR Kit Lens) (Black)
+    super(product)
     @code = product['url'].split("/")[-1].split(".")[0]  # sample is P-E-C-Nikon-D3100
     @url = product['url']+"&affid=cameraw"
-    @image = product['image']
-    @price = product['price']
-    @source = self.class.name
-    @brand, @model = @name.split(" ",2)
-    @brand_name = @brand
     guess_category
     # shortdown_category
     # debug

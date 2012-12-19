@@ -1,34 +1,33 @@
 =begin
-Sample for BuythePrice
-  url: http://www.buytheprice.com/shop-online-deal/nikon-d7000---with-nikon-af-s-18-105mm-__907
-  image: http://static3.buytheprice.com/pimages/iproduct/907.jpg
-  name: Nikon D7000 ( WIth Nikon AF-S 18-105MM)
-  price: '77690'
-  category: 'slrs'
+- url: /product/canon-eos-5d-mark-iii-kit-ef-24-105-f4l-is-usm-lens/
+  image: /published/publicdata/SSLIVESSLIVE/attachments/SC/products_pictures/Canon_5D_Mark_III_Kit_L_thm.jpg
+  name: Canon EOS 5D Mark III Kit EF 24-105 F4L IS USM Lens
+  price: 242592.0
+  category: slrs
 =end
 
-class BuyThePriceLinks < PriceReader
+class SmartShoppersLinks < PriceReader
   attr_accessor :filename, :product_categories
 
   def initialize
-    @filename = BuyThePriceConfig::Filename
+    @filename = SmartShoppersConfig::Filename
     @products = []
   end
 
   def load
-    @products = YAML::load(File.open(@filename).read).map { |product| BuyThePrice.new(product) }
+    @products = YAML::load(File.open(@filename).read).map { |product| SmartShoppers.new(product) }
   end
 
 end
-class BuyThePrice < SimpleSource
+class SmartShoppers < SimpleSource
   attr_accessor :brand_name
   def initialize(product)
     super(product)
-    @code = product['url'].split("__")[-1]  # sample is 907
+    @code = ""
   end
 end
 
-# l = BuyThePriceLinks.new
+# l = SmartShoppersLinks.new
 # l.load
 # puts l.brands
 # puts l.brands_with_count

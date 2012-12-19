@@ -8,6 +8,7 @@ class SmartShopperHTMLScraper < HTMLScraper
     @complete_data = []
     @filename = SmartShoppersConfig::Filename
     @per_page = 3000
+    @base_url = "http://smartshoppers.in/"
 
     @total_count = ""
     @product_details = "form.product_brief_block"
@@ -29,7 +30,7 @@ private
       fail "could not parse data"
     end
     {
-    'url' =>  abc.attr('href'),
+    'url' =>  @base_url + abc.attr('href'),
     'image' => product_section.xpath('table/tr[1]/td/div/a/img').attr('src').value,
     'name' => product_section.xpath('table/tr[1]/td/div/a/img').attr('alt').value,
     'price' => product_section.css('div.prdbrief_price').text().split(" ")[-1].gsub(/Rs\.?/,'').gsub(',','').strip.to_f,

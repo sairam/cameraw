@@ -54,6 +54,18 @@ class SimpleSource
     fail "Dont SimpleSource me"
   end
 
+  def initialize(product)
+    @name = product['name']
+    @url = product['url']
+    @image = product['image']
+    @price = product['price']
+    @category = product['category']
+    @brand,@model = @name.split(" ",2)
+    @brand_name = @brand
+    @brand.downcase!
+    @source = self.class.name
+  end
+
 private
   def debug
     puts @name, @code, @url, @category, @brand, @model, @price

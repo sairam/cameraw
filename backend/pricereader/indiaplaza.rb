@@ -1,34 +1,34 @@
 =begin
-Sample for BuythePrice
-  url: http://www.buytheprice.com/shop-online-deal/nikon-d7000---with-nikon-af-s-18-105mm-__907
-  image: http://static3.buytheprice.com/pimages/iproduct/907.jpg
-  name: Nikon D7000 ( WIth Nikon AF-S 18-105MM)
-  price: '77690'
-  category: 'slrs'
+- url: /nikon-d-3200-kit-18-55vr-lens-dslr-cameras-cameras-cam20120605ang002-10.htm
+  image: http://images.indiaplaza.com/cameras/images/CAM20120605ANG002-T.jpg
+  name: Nikon D-3200 Kit (18-55VR Lens)
+  price: '35356'
+  category: slrs
+
 =end
 
-class BuyThePriceLinks < PriceReader
+class IndiaPlazaLinks < PriceReader
   attr_accessor :filename, :product_categories
 
   def initialize
-    @filename = BuyThePriceConfig::Filename
+    @filename = IndiaPlazaConfig::Filename
     @products = []
   end
 
   def load
-    @products = YAML::load(File.open(@filename).read).map { |product| BuyThePrice.new(product) }
+    @products = YAML::load(File.open(@filename).read).map { |product| IndiaPlaza.new(product) }
   end
 
 end
-class BuyThePrice < SimpleSource
+class IndiaPlaza < SimpleSource
   attr_accessor :brand_name
   def initialize(product)
     super(product)
-    @code = product['url'].split("__")[-1]  # sample is 907
+    @code = product['url'].match(/cameras-(.*)\.htm/)[-1]
   end
 end
 
-# l = BuyThePriceLinks.new
+# l = IndiaPlazaLinks.new
 # l.load
 # puts l.brands
 # puts l.brands_with_count

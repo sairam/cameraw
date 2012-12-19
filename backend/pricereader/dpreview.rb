@@ -10,8 +10,7 @@ class DPReviewLinks < PriceReader
 
   def load
     YAML::load(File.open(@filename).read).each do |product|
-      image = "http://4.static.img-dpreview.com/products_data/products/#{product['dprCode']}/generated/#{product['dprCode']}-80x80.png?v=1870"
-      @products << DPReview.new(product['name'], product['dprCode'], product['url'], image)
+      @products << DPReview.new(product)
     end
   end
 end
@@ -25,11 +24,11 @@ Sample for DPReview
   isDiscontinued: false
 =end
 class DPReview < SimpleSource
-  def initialize(name, code, url, image)
-    @name = name
-    @code = code
-    @url = url
-    @image = image
+  def initialize(product)
+    @name = product['name']
+    @code = product['dprCode']
+    @url = product['url']
+    @image = "http://4.static.img-dpreview.com/products_data/products/#{product['dprCode']}/generated/#{product['dprCode']}-80x80.png?v=1870"
     @source = self.class.name
     @brand, @category = url.match(/products\/([a-z]+)\/([a-z]+)/).to_a[1..2]
     @model = get_model

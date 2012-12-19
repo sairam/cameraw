@@ -1,34 +1,33 @@
 =begin
-Sample for BuythePrice
-  url: http://www.buytheprice.com/shop-online-deal/nikon-d7000---with-nikon-af-s-18-105mm-__907
-  image: http://static3.buytheprice.com/pimages/iproduct/907.jpg
-  name: Nikon D7000 ( WIth Nikon AF-S 18-105MM)
-  price: '77690'
-  category: 'slrs'
+- url: http://jjmehta.com/shop/Olympus_E-PM1.html
+  image: http://jjmehta.com/shop/images/T/xctmpFISs3e.png
+  name: ! 'Olympus PEN E-PM1 W/14-42mm Lens '
+  price: '23490.00'
+  category: slrs
 =end
 
-class BuyThePriceLinks < PriceReader
+class JJMehtaLinks < PriceReader
   attr_accessor :filename, :product_categories
 
   def initialize
-    @filename = BuyThePriceConfig::Filename
+    @filename = JJMehtaConfig::Filename
     @products = []
   end
 
   def load
-    @products = YAML::load(File.open(@filename).read).map { |product| BuyThePrice.new(product) }
+    @products = YAML::load(File.open(@filename).read).map { |product| JJMehta.new(product) }
   end
 
 end
-class BuyThePrice < SimpleSource
+class JJMehta < SimpleSource
   attr_accessor :brand_name
   def initialize(product)
     super(product)
-    @code = product['url'].split("__")[-1]  # sample is 907
+    @code = ""
   end
 end
 
-# l = BuyThePriceLinks.new
+# l = JJMehtaLinks.new
 # l.load
 # puts l.brands
 # puts l.brands_with_count

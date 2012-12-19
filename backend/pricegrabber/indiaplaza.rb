@@ -9,6 +9,7 @@ class IndiaPlazaHTMLScraper < HTMLScraper
     @complete_data = []
     @filename = IndiaPlazaConfig::Filename
     @per_page = 20
+    @base_url = "http://www.indiaplaza.com"
 
     @total_count = "div.prodNoArea"
     @product_details = "div.skuRow"
@@ -21,7 +22,7 @@ private
   def parse_data product_section
     print "."
     {
-    'url' => product_section.css('div.skuImg > a').attr('href').value,
+    'url' => @base_url + product_section.css('div.skuImg > a').attr('href').value,
     'image' => product_section.css('div.skuImg a img').attr('src').value,
     'name' => product_section.css('div.skuImg > a img').attr('alt').value,
     'price' => product_section.css('div.ourPrice').text().strip.split(":")[1].gsub(/Rs\.?/,'').gsub(',','').strip, # price section
