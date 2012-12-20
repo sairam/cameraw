@@ -25,7 +25,7 @@ Dir.open('pricegrabber').each{|x| require x if !(x =~ /_/) && (x=~ /\.rb/) }
 # s = SnapDealHTMLScraper.new
 # s.perform
 
-# [BuyThePriceHTMLScraper, ZoomInHTMLScraper, InfibeamHTMLScraper, FlipkartHTMLScraper, DPReviewInfoGrabber].each do |klass|
+# [BuyThePriceHTMLScraper, ZoominHTMLScraper, InfibeamHTMLScraper, FlipkartHTMLScraper, DPReviewInfoGrabber, HomeShop18HTMLScraper, SmartShopperHTMLScraper, LandMarkHTMLScraper, IndiaPlazaHTMLScraper, JJMehtaHTMLScraper, SnapDealHTMLScraper].each do |klass|
 #   klass.new.perform
 # end
-
+#

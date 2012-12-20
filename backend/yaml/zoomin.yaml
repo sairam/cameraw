@@ -2394,55 +2394,10 @@
   name: Canon PowerShot A1200
   price: '3875'
   category: compacts
-- url: http://camera.zoomin.com/cameras-1/samsung-pl80.html
-  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/s/a/samsung_pl80_2.jpg
-  name: Samsung PL80
-  price: '9199'
-  category: compacts
-- url: http://camera.zoomin.com/cameras-1/lumix-dmc-fz35.html
-  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/p/s/ps066_black1_1.jpg
-  name: Panasonic Lumix DMC-FZ35
-  price: '26180'
-  category: compacts
-- url: http://camera.zoomin.com/cameras-1/cybershot-dsc-t99.html
-  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/s/o/sony_cybershot_tx9-550x346.jpg
-  name: Sony Cybershot DSC-T99
-  price: '7800'
-  category: compacts
-- url: http://camera.zoomin.com/cameras-1/coolpix-p300.html
-  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/1/1/110958_high_1.jpg
-  name: Nikon COOLPIX P300
-  price: '14500'
-  category: compacts
-- url: http://camera.zoomin.com/cameras-1/lumix-dmc-fh2.html
-  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/l/u/lumix_dmc-fh2_1.jpg
-  name: Panasonic Lumix DMC-FH2
-  price: '7190'
-  category: compacts
-- url: http://camera.zoomin.com/cameras-1/samsung-st70.html
-  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/p/s/ps133_black.jpg
-  name: Samsung ST70
-  price: '10379'
-  category: compacts
-- url: http://camera.zoomin.com/cameras-1/dmc-fz100.html
-  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/p/a/panasonic-fz100-800.jpg
-  name: Panasonic DMC-FZ100
-  price: '24990'
-  category: compacts
-- url: http://camera.zoomin.com/cameras-1/samsung-es75.html
-  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/0/2/02_large.jpg
-  name: Samsung ES75
-  price: '7699'
-  category: compacts
-- url: http://camera.zoomin.com/cameras-1/powershot-s95.html
-  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/p/o/powershot_s95_frt_flash_1.jpg
-  name: Canon PowerShot S95
-  price: '21335'
-  category: compacts
-- url: http://camera.zoomin.com/cameras-1/dmc-fh7.html
-  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/p/s/ps082_black.jpg
-  name: Panasonic DMC-FH7
-  price: '10550'
+- url: http://camera.zoomin.com/cameras-1/vg-110.html
+  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/v/g/vg110_silver__front_xl_2_.jpg
+  name: Olympus VG-110
+  price: '4000'
   category: compacts
 - url: http://camera.zoomin.com/cameras-1/lumix-dmc-s1.html
   image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/d/m/dmc-s1-s-front.jpg
@@ -2454,20 +2409,20 @@
   name: Sony Cybershot DSC-HX7V
   price: '14700'
   category: compacts
-- url: http://camera.zoomin.com/cameras-1/vg-110.html
-  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/v/g/vg110_silver__front_xl_2_.jpg
-  name: Olympus VG-110
-  price: '4000'
+- url: http://camera.zoomin.com/cameras-1/lumix-dmc-ft3.html
+  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/p/s/ps071_blue_1.jpg
+  name: Panasonic Lumix DMC-FT3
+  price: '12000'
   category: compacts
 - url: http://camera.zoomin.com/cameras-1/samsung-es65.html
   image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/p/s/ps149_black1.jpg
   name: Samsung ES65
   price: '7990'
   category: compacts
-- url: http://camera.zoomin.com/cameras-1/lumix-dmc-ft3.html
-  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/p/s/ps071_blue_1.jpg
-  name: Panasonic Lumix DMC-FT3
-  price: '12000'
+- url: http://camera.zoomin.com/cameras-1/vg-140.html
+  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/v/g/vg-140_1_.jpg
+  name: Olympus VG-140
+  price: '4899'
   category: compacts
 - url: http://camera.zoomin.com/cameras-1/lumix-dmc-fp1.html
   image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/p/a/panasonic_lumix_dmc-fp1_closed.jpg
@@ -2479,25 +2434,15 @@
   name: Sony Cybershot DSC-W520
   price: '6800'
   category: compacts
-- url: http://camera.zoomin.com/cameras-1/vg-140.html
-  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/v/g/vg-140_1_.jpg
-  name: Olympus VG-140
-  price: '4899'
-  category: compacts
-- url: http://camera.zoomin.com/cameras-1/samsung-es30.html
-  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/4/4/4403_4528.jpg
-  name: Samsung ES30
-  price: '4300'
-  category: compacts
 - url: http://camera.zoomin.com/cameras-1/powershot-sx220-hs.html
   image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/p/o/powershot_sx220_hs_frt_grey.jpg
   name: Canon PowerShot SX220 HS
   price: '15515'
   category: compacts
-- url: http://camera.zoomin.com/cameras-1/cybershot-dsc-wx7.html
-  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/0/6/064748hgj_1.jpeg
-  name: Sony Cybershot DSC-WX7
-  price: '10660'
+- url: http://camera.zoomin.com/cameras-1/samsung-es30.html
+  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/4/4/4403_4528.jpg
+  name: Samsung ES30
+  price: '4300'
   category: compacts
 - url: http://camera.zoomin.com/cameras-1/coolpix-p7000.html
   image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/p/s/ps004-bi-04.17.jpg
@@ -2509,20 +2454,20 @@
   name: Panasonic Lumix DMC-FH3
   price: '6780'
   category: compacts
-- url: http://camera.zoomin.com/cameras-1/samsung-pl200.html
-  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/p/l/pl200.jpg
-  name: Samsung PL200
-  price: '11990'
+- url: http://camera.zoomin.com/cameras-1/cybershot-dsc-wx7.html
+  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/0/6/064748hgj_1.jpeg
+  name: Sony Cybershot DSC-WX7
+  price: '10660'
   category: compacts
 - url: http://camera.zoomin.com/cameras-1/dmc-fz40.html
   image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/f/z/fz40_1.jpg
   name: Panasonic DMC-FZ40
   price: '20360'
   category: compacts
-- url: http://camera.zoomin.com/cameras-1/samsung-pl100.html
-  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/p/s/ps156_black.jpg
-  name: Samsung PL100
-  price: '8570'
+- url: http://camera.zoomin.com/cameras-1/samsung-pl200.html
+  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/p/l/pl200.jpg
+  name: Samsung PL200
+  price: '11990'
   category: compacts
 - url: http://camera.zoomin.com/cameras-1/coolpix-p500.html
   image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/p/s/ps002-bi-02.18.jpg
@@ -2534,6 +2479,16 @@
   name: Panasonic Lumix DMC-FH5
   price: '8000'
   category: compacts
+- url: http://camera.zoomin.com/cameras-1/samsung-pl100.html
+  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/p/s/ps156_black.jpg
+  name: Samsung PL100
+  price: '8570'
+  category: compacts
+- url: http://camera.zoomin.com/cameras-1/t-110.html
+  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/t/-/t-110_1__1.jpg
+  name: Olympus T-110
+  price: '4099'
+  category: compacts
 - url: http://camera.zoomin.com/cameras-1/lumix-dmc-f2.html
   image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/p/a/panasonic-lumix-dmc-f2_1.jpg
   name: Panasonic Lumix DMC-F2
@@ -2543,6 +2498,101 @@
   image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/s/o/sony_cybershot_dsc-s3000_1_.jpg
   name: Sony Cybershot DSC-S3000
   price: '4300'
+  category: compacts
+- url: http://camera.zoomin.com/cameras-1/powershot-sx130-is.html
+  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/p/o/powershot_sx130is_frt_black.jpg
+  name: Canon PowerShot SX130 IS
+  price: '10665'
+  category: compacts
+- url: http://camera.zoomin.com/cameras-1/dmc-fh27.html
+  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/2/0/2011052511030414411.jpg
+  name: Panasonic DMC-FH27
+  price: '12000'
+  category: compacts
+- url: http://camera.zoomin.com/cameras-1/samsung-es70.html
+  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/h/u/hugephoto_0.jpg
+  name: Samsung ES70
+  price: '6700'
+  category: compacts
+- url: http://camera.zoomin.com/cameras-1/vg-120.html
+  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/v/g/vg-120_2_.jpg
+  name: Olympus VG-120
+  price: '4800'
+  category: compacts
+- url: http://camera.zoomin.com/cameras-1/lumix-dmc-s3.html
+  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/1/_/1_3.jpg
+  name: Panasonic Lumix DMC-S3
+  price: '6500'
+  category: compacts
+- url: http://camera.zoomin.com/cameras-1/cybershot-dsc-hx9v.html
+  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/h/x/hx9v_2_2.jpg
+  name: Sony Cybershot DSC-HX9V
+  price: '16600'
+  category: compacts
+- url: http://camera.zoomin.com/cameras-1/digital-ixus-310-hs.html
+  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/i/m/image_ixus_310_hs_frt_hor_gold_tcm13-813254_1.jpg
+  name: Canon Digital IXUS 310 HS
+  price: '10665'
+  category: compacts
+- url: http://camera.zoomin.com/cameras-1/lumix-dmc-tz10.html
+  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/p/a/panasonic-lumix-tz10_1.jpg
+  name: Panasonic Lumix DMC-TZ10
+  price: '10700'
+  category: compacts
+- url: http://camera.zoomin.com/cameras-1/samsung-es25.html
+  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/s/a/samsung_es25_1.jpg
+  name: Samsung ES25
+  price: '6400'
+  category: compacts
+- url: http://camera.zoomin.com/cameras-1/coolpix-l23.html
+  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/1/2/123277_high_1.jpg
+  name: Nikon COOLPIX L23
+  price: '4490'
+  category: compacts
+- url: http://camera.zoomin.com/cameras-1/lumix-dmc-fp5.html
+  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/p/s/ps087_black.jpg
+  name: Panasonic Lumix DMC-FP5
+  price: '7999'
+  category: compacts
+- url: http://camera.zoomin.com/cameras-1/cybershot-dsc-w530.html
+  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/1/1/118680.jpeg
+  name: Sony Cybershot DSC-W530
+  price: '6780'
+  category: compacts
+- url: http://camera.zoomin.com/cameras-1/lumix-dmc-fz35.html
+  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/p/s/ps066_black1_1.jpg
+  name: Panasonic Lumix DMC-FZ35
+  price: '26180'
+  category: compacts
+- url: http://camera.zoomin.com/cameras-1/samsung-pl80.html
+  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/s/a/samsung_pl80_2.jpg
+  name: Samsung PL80
+  price: '9199'
+  category: compacts
+- url: http://camera.zoomin.com/cameras-1/coolpix-p300.html
+  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/1/1/110958_high_1.jpg
+  name: Nikon COOLPIX P300
+  price: '14500'
+  category: compacts
+- url: http://camera.zoomin.com/cameras-1/lumix-dmc-fh2.html
+  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/l/u/lumix_dmc-fh2_1.jpg
+  name: Panasonic Lumix DMC-FH2
+  price: '7190'
+  category: compacts
+- url: http://camera.zoomin.com/cameras-1/cybershot-dsc-t99.html
+  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/s/o/sony_cybershot_tx9-550x346.jpg
+  name: Sony Cybershot DSC-T99
+  price: '7800'
+  category: compacts
+- url: http://camera.zoomin.com/cameras-1/dmc-fz100.html
+  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/p/a/panasonic-fz100-800.jpg
+  name: Panasonic DMC-FZ100
+  price: '24990'
+  category: compacts
+- url: http://camera.zoomin.com/cameras-1/samsung-st70.html
+  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/p/s/ps133_black.jpg
+  name: Samsung ST70
+  price: '10379'
   category: compacts
 - url: http://camera.zoomin.com/cameras-1/powershot-s95.html
   image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/p/o/powershot_s95_frt_flash_1.jpg
@@ -2558,54 +2608,4 @@
   image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/0/2/02_large.jpg
   name: Samsung ES75
   price: '7699'
-  category: compacts
-- url: http://camera.zoomin.com/cameras-1/vg-110.html
-  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/v/g/vg110_silver__front_xl_2_.jpg
-  name: Olympus VG-110
-  price: '4000'
-  category: compacts
-- url: http://camera.zoomin.com/cameras-1/lumix-dmc-s1.html
-  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/d/m/dmc-s1-s-front.jpg
-  name: Panasonic Lumix DMC-S1
-  price: '5670'
-  category: compacts
-- url: http://camera.zoomin.com/cameras-1/cybershot-dsc-hx7v.html
-  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/h/x/hx7v.jpg
-  name: Sony Cybershot DSC-HX7V
-  price: '14700'
-  category: compacts
-- url: http://camera.zoomin.com/cameras-1/lumix-dmc-ft3.html
-  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/p/s/ps071_blue_1.jpg
-  name: Panasonic Lumix DMC-FT3
-  price: '12000'
-  category: compacts
-- url: http://camera.zoomin.com/cameras-1/samsung-es65.html
-  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/p/s/ps149_black1.jpg
-  name: Samsung ES65
-  price: '7990'
-  category: compacts
-- url: http://camera.zoomin.com/cameras-1/vg-140.html
-  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/v/g/vg-140_1_.jpg
-  name: Olympus VG-140
-  price: '4899'
-  category: compacts
-- url: http://camera.zoomin.com/cameras-1/lumix-dmc-fp1.html
-  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/p/a/panasonic_lumix_dmc-fp1_closed.jpg
-  name: Panasonic Lumix DMC-FP1
-  price: '5550'
-  category: compacts
-- url: http://camera.zoomin.com/cameras-1/cybershot-dsc-w520.html
-  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/p/s/ps025_silver.jpg
-  name: Sony Cybershot DSC-W520
-  price: '6800'
-  category: compacts
-- url: http://camera.zoomin.com/cameras-1/powershot-sx220-hs.html
-  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/p/o/powershot_sx220_hs_frt_grey.jpg
-  name: Canon PowerShot SX220 HS
-  price: '15515'
-  category: compacts
-- url: http://camera.zoomin.com/cameras-1/samsung-es30.html
-  image: http://a.zi.cm/v20/media/catalog/product/cache/1/small_image/170x/9df78eab33525d08d6e5fb8d27136e95/4/4/4403_4528.jpg
-  name: Samsung ES30
-  price: '4300'
   category: compacts
