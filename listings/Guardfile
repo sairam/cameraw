@@ -1,0 +1,9 @@
+guard 'bundler' do
+  watch('Gemfile')
+end
+
+guard 'shotgun' do
+  watch('cameraw.rb')
+  watch('config.ru')
+  watch(%r{^lib/(.+)\.rb$})
+end

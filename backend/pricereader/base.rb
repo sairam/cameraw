@@ -3,42 +3,83 @@ Expects a product with brand_name, category
 =end
 
 class PriceReader
-  attr_accessor :filename, :products
+  attr_accessor :filename, :products, :brand_mappings
   def initialize
     @products = []
+    @brand_mappings = {}
   end
 
-  def extract_brand(str, klass)
-    if klass.name == DPReview
-      # products.map
-      return ""
-    end
+  def make_brand_mappings
+    @brand_mappings ||= {}
+    @products.map {|p| (@brand_mappings[p.brand] = p.brand_name) unless @brand_mappings.key?(p.brand) }
   end
 
   def to_s
     self.class.name.gsub("Links","")
   end
 
-  def brands
-    (@products.map{|p| p.brand_name}).uniq
-  end
-  def brands_with_count
-    @products.inject(Hash.new(0)) {|h,p| h[p.brand_name] += 1; h }
+  def method_missing(method, *args)
+    return @products.send(method, *args) if @products.respond_to?(method)
+    super
   end
 
-  def categories
-    (@products.map{|p| p.category}).uniq
+  def find_by_brand_and_category(p)
+    filter_by_categories_and_brands(p.category, p.brand)
   end
-  def categories_with_count
-    @products.inject(Hash.new(0)) {|h,p| h[p.category] += 1; h }
+
+  alias :find_by_category_and_brand :find_by_brand_and_category
+
+  def filter_by_category_and_brand(category, brand)
+    @products.select{|x| x.brand == brand && x.category == category}
+  end
+
+  def brands(pr=nil)
+    ((pr || @products).map{|p| p.brand_name}).uniq
+  end
+
+  def slrs(pr=nil)
+    (pr || @products).select{|p| p.category == 'slrs'}
+  end
+  def compacts(pr=nil)
+    (pr || @products).select{|p| p.category == 'compacts'}
+  end
+  def camcorders(pr=nil)
+    (pr || @products).select{|p| p.category == 'camcorders'}
+  end
+  def lenses(pr=nil)
+    (pr || @products).select{|p| p.category == 'lenses'}
+  end
+
+  def brands_with_count(pr=nil)
+    (pr || @products).inject(Hash.new(0)) {|h,p| h[p.brand] += 1; h }
+  end
+
+  def categories(pr=nil)
+    ((pr || @products).map{|p| p.category}).uniq
+  end
+
+  def categories_with_count(pr=nil)
+    (pr || @products).inject(Hash.new(0)) {|h,p| h[p.category] += 1; h }
   end
 
   def filter_by_categories(categories)
     (@products.select{|p| categories.include?(p.category)})
   end
 
+  def filter_brands_by_categories(categories)
+    brands_with_count(filter_by_categories(categories))
+  end
+
   def filter_by_brands(brands)
-    (@products.select{|p| brands.include?(p.brand_name)})
+    (@products.select{|p| brands.include?(p.brand)})
+  end
+
+  def filter_categories_by_brands(brands)
+    categories_with_count(filter_by_brands(brands))
+  end
+
+  def get_product_by_code(code)
+    @products.each{|p| return p if p.code == code}
   end
 
   def search(search)

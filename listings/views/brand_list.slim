@@ -1,0 +1,9 @@
+h1
+  ' List of items under
+  a href="/store" &raquo;
+  |/
+  a href=brand_url(@brand) = "#{MainLinks.brand_mappings[@brand]}(#{@models.size})"
+
+ul
+  - @models.each do |model|
+    li: a href="/store/#{model.category}/#{@brand}/#{model.code}"= "#{model.name}"

@@ -24,12 +24,16 @@ class Infibeam < SimpleSource
   def initialize(product)
     super(product)
     @code = product['url'].split("/")[-1].split(".")[0]
-    guess_category
+    @category = if product['category']
+    product['category']
+    else
+      guess_category
+    end
     # debug
   end
 
   def guess_category
-    @category = if @url =~ /Camcorder/i
+    if @url =~ /Camcorder/i
       "camcoders"
     elsif @name =~ /slr/i || @url =~ /slr/i
       "slrs"

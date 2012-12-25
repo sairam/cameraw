@@ -30,10 +30,10 @@ class Zoomin < SimpleSource
   end
 end
 
-l = ZoominLinks.new
-l.load
+# l = ZoominLinks.new
+# l.load
 # puts l.brands
-puts l.brands_with_count
+# puts l.brands_with_count
 # puts l.categories
 # puts l.categories_with_count
 # binding.pry

@@ -1,0 +1,31 @@
+h1
+  ' Details of
+  a href="/store" &raquo;
+  |/
+  a href=category_url(@category) = @category
+  |/
+  a href=category_brand_url(@category,@brand) = @brand
+  |/
+  a href=category_brand_product_url(@product) = @product.name
+
+ul
+  li
+    ' Product URL
+    a href=@product.url target='_blank'
+      img src=@product.image
+  li
+    ' Product Name
+    a href=@product.url target='_blank' = @product.name
+  li
+    ' Product Code
+    = @product.code
+
+h2 Other products from Indian Stores
+| TBD
+h2 Other products from International Stores
+| TBD
+h2 Links to other popular sites
+| TBD
+
+br
+br

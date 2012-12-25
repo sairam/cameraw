@@ -34,3 +34,5 @@ end
 module SnapDealConfig
   Filename = "yaml/snapdeal.yaml"
 end
+
+Categories = %w{compacts slrs lenses camcoders}

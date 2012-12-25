@@ -3,9 +3,10 @@ class BuyThePriceHTMLScraper < HTMLScraper
   @@compacts = "http://www.buytheprice.com/category__digital-cameras-91~PAGE.html"
   @@camcoders = "http://www.buytheprice.com/category__camcorders-95~PAGE.html"
   @@slrs = "http://www.buytheprice.com/category__digital-slr-92~PAGE.html"
+  @@lenses = "http://www.buytheprice.com/category__camera-lenses-505~PAGE.html"
 
   def initialize
-    @urls = {"slrs" => @@slrs, "camcoders" => @@camcoders, "compacts" => @@compacts}
+    @urls = {"slrs" => @@slrs, "camcoders" => @@camcoders, "compacts" => @@compacts, "lenses" => @@lenses}
     @complete_data = []
     @filename = BuyThePriceConfig::Filename
     @per_page = 30

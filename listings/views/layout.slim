@@ -1,0 +1,40 @@
+/ Base layout
+html
+  head
+
+  css:
+    body {
+      font-family: Courier;
+      margin: 0px;
+      / margin: 0 25%;
+      width: 800px;
+    }
+    div#container {
+      // adding for content to stay above footer
+      margin-bottom: 30px;
+    }
+    li.revalent {
+    font-weight: bold;
+    }
+    li.not-revalent {
+      background-color: #ddd;
+    }
+    footer {
+      background-color: #def;
+      position: fixed;
+      bottom: 0;
+      width: 800px;
+      text-align: center;
+    }
+
+  body
+    h1 = @title
+    #container == yield
+
+    hr
+    - 2.times do
+      br
+    footer
+      ' &copy; Bitgeek.Inc[2013]
+      br
+      ' Some Rights Reserved.

@@ -2,7 +2,7 @@
 class FlipkartHTMLScraper < HTMLScraper
 
   def initialize
-    @urls = ['http://www.flipkart.com/cameras/pr?sid=jek%2Cp31&layout=list&start=START']
+    @urls = {'none' => 'http://www.flipkart.com/cameras/pr?sid=jek%2Cp31&layout=list&start=START', 'lenses' => 'http://www.flipkart.com/cameras-accessories/lenses/pr?sid=jek%2C6l2%2Ce9y&layout=list&start=START'}
 
     @complete_data = []
     @per_page = 20
@@ -23,7 +23,7 @@ private
     ""
   end
   def get_price product_section
-    product_section.css("div.fk-srch-pricing strong.price.final-price").text().strip
+    product_section.css("div.fk-srch-pricing strong.price.final-price").text().strip.gsub(/Rs\.?/,'').gsub(',','').strip
   rescue
     ""
   end

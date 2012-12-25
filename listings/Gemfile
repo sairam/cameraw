@@ -1,0 +1,25 @@
+source :rubygems
+
+gem 'sinatra'
+
+# HTML rendering
+gem 'slim'
+
+gem 'pry'
+gem 'nokogiri'
+
+
+group :development do
+  gem 'pry'
+  gem 'rb-fsevent', :require => false
+
+  gem 'guard-shotgun', :git => 'https://github.com/rchampourlier/guard-shotgun.git'
+  gem 'guard-bundler'
+  gem 'guard-minitest'
+
+end
+
+group :test do
+  gem 'faker'
+  gem 'minitest'
+end

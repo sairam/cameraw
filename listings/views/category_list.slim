@@ -1,0 +1,9 @@
+h1
+  ' List of brands under
+  a href="/store" &raquo;
+  |/
+  a href=category_url(@category) = @category
+
+ul
+  - @brands.each do |brand, count|
+    li: a href="/store/#{@category}/#{brand}"= "#{MainLinks.brand_mappings[brand]}(#{count})"

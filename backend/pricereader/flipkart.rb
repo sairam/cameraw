@@ -28,13 +28,17 @@ class Flipkart < SimpleSource
     super(product)
     @code = product['url'].split("/")[-1].split(".")[0]  # sample is P-E-C-Nikon-D3100
     @url = product['url']+"&affid=cameraw"
-    guess_category
+    @category = if product['category']
+      product['category']
+    else
+      guess_category
+    end
     # shortdown_category
     # debug
   end
 
   def guess_category
-    @category = if url.match(/point-shoot\//)
+    if url.match(/point-shoot\//)
       "compacts"
     elsif url.match(/slr\//)
       "slrs"

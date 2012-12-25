@@ -1,0 +1,12 @@
+- @title = "Home"
+' Home Page
+
+ul
+  - (@categories.keys & Categories).each do |category|
+    li: a href="/store/#{category}/" = "#{category}(#{@categories[category]})"
+
+ul
+  - (@brands.keys).each do |brand|
+    li: a href="/store/cameras/#{brand}/" = "#{MainLinks.brand_mappings[brand]}(#{@brands[brand]})"
+
+' Were done here

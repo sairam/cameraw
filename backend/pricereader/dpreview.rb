@@ -1,17 +1,14 @@
 
 class DPReviewLinks < PriceReader
-  attr_accessor :filename, :product_categories
+  attr_accessor :filename
 
   def initialize
     @filename = DPReviewConfig::Filename
     @products = []
-    # @product_categories = {}
   end
 
   def load
-    YAML::load(File.open(@filename).read).each do |product|
-      @products << DPReview.new(product)
-    end
+    @products = YAML::load(File.open(@filename).read).map { |product| DPReview.new(product) }
   end
 end
 
@@ -24,6 +21,7 @@ Sample for DPReview
   isDiscontinued: false
 =end
 class DPReview < SimpleSource
+  attr_accessor :related_items
   def initialize(product)
     @name = product['name']
     @code = product['dprCode']
@@ -32,6 +30,7 @@ class DPReview < SimpleSource
     @source = self.class.name
     @brand, @category = url.match(/products\/([a-z]+)\/([a-z]+)/).to_a[1..2]
     @model = get_model
+    @related_items = []
   end
 
   def brand_name

@@ -2,7 +2,7 @@
 
 class InfibeamHTMLScraper < HTMLScraper
   def initialize
-    @urls = ["http://www.infibeam.com/Cameras/Search_ajax.action?store=Cameras&page=PAGE"]
+    @urls = {"none" => "http://www.infibeam.com/Cameras/Search_ajax.action?store=Cameras&page=PAGE", "lenses" => "http://www.infibeam.com/Camera_Accessories/Search_ajax.action?category=Lens&store=Camera_Accessories&page=PAGE"}
 
     @complete_data = []
     @per_page = 20

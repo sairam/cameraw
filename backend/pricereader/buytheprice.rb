@@ -24,6 +24,7 @@ class BuyThePrice < SimpleSource
   attr_accessor :brand_name
   def initialize(product)
     super(product)
+    # @model = product['model'].gsub(/eos/i,'').gsub(/(d?slr|camera|kit|bundle)/i,'').gsub(/ - Body/,'').gsub(/[0-9-]+mm/i,'').gsub(/\(.*\)/,'').gsub(/\s+/,'').downcase
     @code = product['url'].split("__")[-1]  # sample is 907
   end
 end
